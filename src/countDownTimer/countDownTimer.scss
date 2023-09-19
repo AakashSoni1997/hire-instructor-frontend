@@ -1,0 +1,12 @@
+.show-counter{
+    display: flex;
+    align-items: center;
+
+    .countdown{
+        margin: 0 2px;
+
+        &:not(:first-child) span{
+            margin-left: 2px;
+        }
+    }
+}

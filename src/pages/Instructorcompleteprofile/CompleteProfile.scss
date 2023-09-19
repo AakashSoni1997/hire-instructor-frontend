@@ -1,0 +1,120 @@
+.completeProfile-container {
+    .step-progressbar-ul {
+        max-width: 125rem;
+        margin: 0 auto 10rem;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        z-index: 1;
+
+        .sp-item {
+            min-height: 60px;
+            flex-direction: column;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            list-style: none;
+            position: relative;
+            text-align: center;
+            flex: 1 1 auto;
+
+            .sp-count {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 100%;
+            }
+
+            &.active {
+                &:not(.saved) {
+                    .sp-count {
+                        background-color: #fff;
+                        color: #161616;
+                        font-size: 1.8rem;
+                        font-weight: bold;
+                        font-family: "Poppins";
+                        border: 1rem solid #fed756;
+                        height: 6rem;
+                        width: 6rem;
+                    }
+                }
+
+                &.saved {
+                    .sp-count {
+                        background-color: #fed756;
+                        border: 1rem solid #fed756;
+                        height: 4rem;
+                        width: 4rem;
+                        overflow: hidden;
+                        font-size: 0;
+
+                        &:after {
+                            content: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="15.141" height="11.595" viewBox="0 0 15.141 11.595"%3E%3Cpath id="Icon_ionic-ios-checkmark" data-name="Icon ionic-ios-checkmark" d="M25.5,13.563l-1.237-1.273a.266.266,0,0,0-.2-.084h0a.255.255,0,0,0-.2.084l-8.578,8.641L12.164,17.81a.272.272,0,0,0-.394,0l-1.252,1.252a.28.28,0,0,0,0,.4L14.456,23.4a1.245,1.245,0,0,0,.823.4,1.3,1.3,0,0,0,.816-.387H16.1l9.4-9.45A.3.3,0,0,0,25.5,13.563Z" transform="translate(-10.434 -12.206)" fill="%23161616"/%3E%3C/svg%3E');
+                            width: 26px;
+                            height: 10px;
+                        }
+                    }
+                }
+            }
+
+            &:not(.active) {
+                .sp-count {
+                    width: 2rem;
+                    height: 2rem;
+                    color: #cccccc;
+                    background-color: #cccccc;
+                    line-height: 2.5rem;
+                }
+            }
+
+            .sp-title {
+                color: var(--text-normal);
+                position: absolute;
+                top: 120%;
+                left: 50%;
+                transform: translateX(-50%);
+                font-size: 15px;
+                font-weight: normal;
+            }
+
+            &:not(:first-child):before {
+                content: "";
+                position: absolute;
+                top: 50%;
+                height: 3px;
+                width: 100%;
+                right: 50%;
+                transform: translateY(-50%);
+                z-index: -1;
+                background: #cccccc;
+                background-size: 200% 100%;
+                background-position: right bottom;
+                transition: background-position 200ms ease-in-out;
+            }
+        }
+    }
+
+    .btn {
+        &.btn-primary {
+            background-color: #005eb5;
+            border: 2px solid #005eb5;
+            color: #fff;
+
+            &:hover {
+                color: #161616;
+            }
+        }
+
+        &.btn-yellow {
+            background-color: #fed756;
+            border-color: #fed756;
+            color: #161616;
+        }
+
+        & + .btn {
+            margin-left: 2.5rem;
+        }
+    }
+}

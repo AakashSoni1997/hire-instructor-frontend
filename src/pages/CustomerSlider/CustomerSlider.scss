@@ -1,0 +1,376 @@
+
+.slider-main-section {
+    margin-top: 13rem;
+
+    .overFadeTest {
+        padding-right: 4rem;
+    }
+
+    .slider-top-content{
+
+        p {
+            padding-bottom: 2rem;
+            margin: 0;
+            position: relative;
+
+            &::after{
+                opacity: 1;
+                width: 5rem;
+                content: "";
+                position: absolute;
+                bottom: 0;
+                background-color: #005EB5;
+                left: 0;
+                height: 0.5rem;
+            }
+        }
+    }
+
+    h3 {
+        font-size: 2rem;
+        font-family: 'Poppins';
+        font-weight: 700;
+        line-height: 3rem;
+        margin-bottom: 1rem;
+        text-transform: capitalize;
+    }
+
+    h5 {
+        font-size: 1.4rem;
+        font-family: 'Roboto';
+        font-weight: 500;
+        text-transform: capitalize;
+    }
+
+    p {
+        margin-bottom: .5rem;
+
+        svg {
+            width: 1.5rem;
+            height: 1.5rem;
+            margin-right: 0.5rem;
+        }
+    }
+
+    .top-arrow {
+        margin: 6rem 0 2rem;
+    }
+    .bottam-arrow {
+        text-align: end;
+        margin-top: 2rem;
+        margin-bottom: 0;
+    }
+
+    .mySwiper2 .swiper-slide {
+        opacity: 0;
+     }
+     
+     .mySwiper2 .swiper-slide-active {
+         width: 100%!important;
+         max-width: 490px!important;
+         height: 440px;
+         border-radius: 120px 120px 120px 0;
+         overflow: hidden;
+         margin-left: -120px;
+         opacity: 1;
+     }
+     
+     .mySwiper2 .swiper-slide-prev,
+     .mySwiper2 .swiper-slide-next {
+         width: 230px!important;
+         height: 205px!important;
+         border-radius: 60px 60px 60px 0;
+         overflow: hidden;
+         opacity: .29;
+         z-index: -1;
+     }
+     .mySwiper2 .swiper-slide-prev{
+         align-self: flex-end;
+         transform: translateX(20px);
+         margin-bottom: -100px;
+     }
+     
+     .mySwiper2 .swiper-slide-next{
+         transform: translateX(-150px);
+         margin-top: -100px;
+     }
+     .swiper-slide img{
+         width: 100%;
+         min-height: 44rem;
+         object-fit: cover;
+         object-position: center;
+     }
+     
+     .mySwiper2 .swiper-wrapper{
+         padding:105px 0;
+     }
+     
+     .customArrow{
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         position: absolute;
+         left: 0;
+         right: 0;
+         margin: auto;
+         bottom: 30px;
+         z-index: 1;
+     }
+     
+     .customArrow > *{
+         width: 40px;
+         height: 40px;
+         border-radius: 50%;
+         background:#FED756;
+         color: #161616;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         transform: rotate(-90deg);
+         transition: all .3s linear;
+         cursor: pointer;
+     }
+     .customArrow > *:hover{
+         background:#005EB5;
+         color:#fff;
+     }
+     
+     
+     .customArrow > *:not(:last-child){
+         margin-right: 8px;
+     }
+     
+     .overFadeTest{
+         position: relative;
+     }
+     
+     .overFadeTest::before{
+         content: "";
+         width: 100%;
+         height: 100%;
+         background-color: #000;
+         position: absolute;
+         left: 0;
+         top: 0;
+         z-index: 2;
+         opacity: 0;
+     }
+
+     .client-logo{
+        display: none;
+     }
+}
+
+
+@media screen and (max-width: 1499px) {
+
+    .slider-main-section {
+
+        .mySwiper2 {
+
+            .swiper-slide-active {
+                max-width: 420px !important;
+                height: 375px !important;
+                margin-left: -150px;
+            }
+        }
+
+        .top-arrow, .bottam-arrow {
+
+            svg {
+                width: 8rem;
+                height: 8rem;
+            }
+        }
+
+        .mySwiper2 .swiper-slide-next {
+            width: 200px !important;
+            height: 180px !important;
+        }
+
+        .mySwiper2 .swiper-slide-prev {
+            width: 200px !important;
+            height: 180px !important;
+        }
+
+        .customArrow {
+            left: 8rem;
+        }
+    }
+
+  }
+
+
+
+  @media screen and (max-width: 1199px) {
+
+    .slider-main-section {
+
+        .mySwiper2 {
+
+            .swiper-slide-active {
+                max-width: 350px !important;
+                height: 310px !important;
+                margin-left: -130px;
+                border-radius: 80px 80px 80px 0;
+                margin-right: 0 !important;
+            }
+        }
+
+        .top-arrow, .bottam-arrow {
+
+            svg {
+                width: 8rem;
+                height: 8rem;
+            }
+        }
+
+        .mySwiper2 .swiper-slide-next {
+            width: 180px !important;
+            height: 160px !important;
+            border-radius: 50px 50px 50px 0;
+        }
+
+        .mySwiper2 .swiper-slide-prev {
+            width: 180px !important;
+            height: 160px !important;
+            border-radius: 50px 50px 50px 0;
+        }
+
+        .customArrow {
+            left: 8rem;
+        }
+    }
+    
+
+  }
+
+
+  @media screen and (max-width: 991px) {
+    .slider-main-section {
+        .top-arrow {
+            margin: 3rem 0 2rem;
+        }
+
+        .mySwiper2 .swiper-slide-next {
+            width: 140px !important;
+            height: 120px !important;
+            border-radius: 30px 30px 30px 0;
+            transform: translateX(-110px);
+        }
+
+        .mySwiper2 .swiper-slide-prev {
+            width: 140px !important;
+            height: 120px !important;
+            border-radius: 30px 30px 30px 0;
+        }
+
+        .mySwiper2 .swiper-slide-active {
+            max-width: 250px !important;
+            height: 220px !important;
+            margin-left: -100px;
+            border-radius: 60px 60px 60px 0;
+            margin-right: 0 !important;
+        }
+
+        .customArrow {
+            left: 15rem;
+        }
+    }
+
+    .slider-main-section .top-arrow svg, .slider-main-section .bottam-arrow svg {
+        width: 6rem;
+        height: 6rem;
+    }
+  }
+
+
+  @media screen and (max-width: 767px) {
+
+
+    .slider-main-section {
+        .top-arrow {
+            margin: 3rem 0 2rem;
+        }
+
+        .mySwiper2 .swiper-slide-next {
+            width: 180px !important;
+            height: 150px !important;
+            border-radius: 40px 40px 40px 0;
+            transform: translateX(-110px);
+        }
+
+        .mySwiper2 .swiper-slide-prev {
+            width: 180px !important;
+            height: 150px !important;
+            border-radius: 40px 40px 40px 0;
+            transform: translateX(110px);
+        }
+
+        .mySwiper2 .swiper-slide-active {
+            max-width: 360px !important;
+            height: 320px !important;
+            margin-left: 0px;
+            border-radius: 80px 80px 80px 0;
+            margin-right: 0 !important;
+        }
+
+        .customArrow {
+            left: 0rem;
+            top: 0;
+        }
+
+        .swiper.swiper-initialized.swiper-horizontal.swiper-watch-progress.mySwiper2 {
+            display: none;
+        }
+
+        .client-logo {
+            display: block;
+            max-width: 8rem;
+            height: 8rem;
+            border-radius: 10rem;
+            overflow: hidden;
+            margin: 1rem 0;
+    
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                object-position: center;
+            }
+        }
+    }
+
+    .slider-main-section .top-arrow svg, .slider-main-section .bottam-arrow svg {
+        width: 6rem;
+        height: 6rem;
+    }
+
+    .slider-main-section .bottam-arrow {
+        margin-bottom: 4rem;
+    }
+
+    .slider-main-section .overFadeTest::before {
+        display: none;
+    }
+  }
+
+
+  @media screen and (max-width: 575px)  {
+    .slider-main-section {
+        margin-top: 5rem;
+        padding: 0;
+    }
+
+    .slider-main-section .overFadeTest {
+        padding-right: 0rem;
+    }
+  }
+
+
+
+
+
+
+
+

@@ -1,0 +1,5077 @@
+
+// @media screen and (min-width: 1500px) and (max-width: 1620px) {
+
+@media screen and (min-width: 1500px) and (max-width: 1620px) {
+    .whychoose-section .sky-dot {
+        top: 5rem;
+    }
+
+    .whychoose-section .counter-sec img {
+        left: -6rem;
+    }
+
+    .whychoose-section .yellow-image {
+        width: 26%;
+        height: 41.6rem;
+        bottom: 9.5rem;
+        left: -2rem;
+    }
+
+    .book-section .book-contect::after {
+        height: 12rem;
+    }
+
+    .book-section .book-contect::before {
+        width: 11rem;
+    }
+
+    .slider-main-section .mySwiper2 .swiper-slide-next {
+        transform: translateX(-160px) !important;
+    }
+
+    .groupclasses2 .subject-total {
+        padding: 1.5rem 1rem;
+    }
+
+    .teachers-description {
+        .feescharges-sec {
+            padding: 2rem;
+        }
+    }
+
+    .chat-box-section .user-online-box ul .user-card .user-box-main {
+        padding: 1.5rem;
+    }
+
+    
+}
+
+// @media screen and (max-width: 1499px) {
+
+@media screen and (max-width: 1499px) {
+
+        .instructor-profile.walletpayment {
+            .wallet-card-main-section {
+                .wallet-card {
+                    border-radius: 1.5rem;
+                    padding: 2rem;
+                }
+
+                .coupons-four-card-section {
+                    .coupons-card-box-first {
+                        padding: 1rem;
+                        border-radius: 1rem;
+                    }
+                }
+            }
+        }
+
+        .wishlist-card-instructors {
+            .card-main-section {
+                .video-section {
+                    button.btn {
+                        top: 6rem;
+                        right: 4rem;
+                    }
+                }
+
+                .heart-icon {
+                    top: 1rem;
+                    right: 1rem;
+                }
+                            
+            }
+        }
+
+        .change-password-box {
+            padding: 2.5rem 2rem;
+        }
+
+        .payment-table-main, .transactionhistory-table {
+            .table-responsive {
+                tr {
+                    td {
+                        padding: 0 3rem 3rem 0px;
+
+                        &:last-child{
+                            padding: 0 0 3rem 0px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .bolg-card-main {
+            .desceiption-button {
+                .btn {
+                    margin-left: 0.5rem;
+                }
+            }
+        }
+
+        .booking-request-section{
+            .bookingrequest-card-main {
+                .eject-accept {
+                    gap: 1rem;
+                }
+            }
+        }
+
+        .qualifications-section{
+            .addmoresubjects-section {
+                .myprofilebox3.cros-button-sub {
+                    width: 10% !important;
+                }
+
+                .myprofilebox3 {
+                    width: 43%;
+                }
+        }
+        }
+
+    .myprofile-section {
+        .tab-section-profile {
+            .myprofilebox2{
+                .myprofilebox1.dropdown-select.subject-level-box {
+                    width: 33%;
+                }
+            }
+        }
+    }
+
+        .sidemenu-profile {
+            padding: 2rem;
+
+            .sidebar-menu {
+                a.active::after {
+                    right: -2rem;
+                }
+            }
+
+            .profile-image-box {
+                .profile-details p {
+                    margin-bottom: 1rem;
+                    font-size: 1.8rem;
+                }
+            }
+        }
+
+        .myprofile-section {
+            .my-profile-details, .tab-section-profile  {
+                padding: 2rem;
+
+                .myprofilebox2 {
+                    .myprofilebox1availability {
+                        .radio-box {
+                            label {
+                                min-width: 7rem;
+                                padding: 0 0rem 0 3rem;
+                            }
+
+                            input {
+                                width: 18px;
+                                height: 18px;
+                                top: 2rem;
+
+                                &:checked::before {
+                                    width: 18px;
+                                    height: 18px;
+                                }
+                            }
+                        }
+
+                        .time-col {
+                            width: 25%;
+                        }
+
+                        .checkbox-main-section {
+                            width: 73%;
+                        }
+
+
+                    }
+                }
+            }
+        }
+
+        .myprofilebox2 .drag-image-video .form-control::file-selector-button{
+            padding: 1.6rem 0rem;
+            width: 16rem;
+        }
+
+
+    .blog {
+        .easy-box-content {
+            padding: 3rem 2rem 0;
+
+            .menu-blog .btn {
+                margin-right: 2rem;
+            }
+        }
+        .blog-section .bolg-card-main .desceiption-button .btn {
+            font-size: 1.2rem;
+            margin-left: 0.5rem;
+        }
+    }
+
+    .blogdetail {
+        .feescharges-sec {
+            padding: 2rem;
+        }
+    }
+
+    .top-navbar {
+
+        nav {
+            padding: 1rem 0;
+            margin-bottom: 0;
+        }
+
+        a {
+            margin-left: 1.4rem;
+            font-size: 1.5rem;
+        }
+
+        .language-dropdown.dropdown-select {
+            margin-left: 1rem;
+        }
+
+        .header-button-group{
+            a.joinnow {
+                padding: 1rem;
+                font-size: 1.5rem;
+                margin-left: 1rem;
+            }
+            a.becomaninstructor {
+                padding: 1rem;
+                font-size: 1.5rem;
+                margin-left: 1rem;
+            }
+            a.login {
+                margin-right: 1rem;
+                font-size: 1.5rem;
+                margin-left: 1rem;
+
+                 img {
+                    margin-right: 0.5rem;
+                    width: 2.5rem;
+                    height: 2.5rem;
+                }
+
+                svg {
+                    width: 2rem;
+                    height: 2rem;
+                }
+            }
+        }
+
+        .navbar-brand{
+            img.logo-header {
+                width: 90%;
+            }
+        }
+    }
+
+    .getverificationbadge-section, .payment-box-main-content {
+        // .payment-three-card{
+        //     .cardnumber-box{
+        //         width: 32%;
+        //     }
+        // }
+    }
+
+    .on-demand-class-type {
+        .select-subject-level-card.payment-box-main-content{
+                .paymentmethod-box, .payment-three-card{
+                    p {
+                        font-size: 1.5rem;
+                    }
+                    .radio-box{
+                        input{
+                            bottom: 2.5rem;
+                            right: 1rem;
+                            width: 1.8rem;
+                            height: 1.8rem;
+
+                            &::before{
+                                width: 8px;
+                                height: 8px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .coupon-button {
+                input {
+                    width: 75%;
+                }
+            }
+    }
+
+    .top-section{
+        .content-section-top {
+            padding-top: 20rem;
+
+            h1 {
+                font-size: 6rem;
+                margin-bottom: 1rem;
+            }
+        }
+    }
+
+    .home-page h1 {
+        font-size: 4.2rem;
+    }
+
+    .whychoose-section {
+
+        .sky-dot {
+            width: 15rem;
+            height: 13rem;
+            left: -5rem;
+            top: 10rem;
+        }
+
+        .yellow-circle {
+            width: 60rem;
+            height: 60rem;
+            right: -25rem;
+            top: 4rem;
+        }
+
+        .yellow-dot {
+            width: 4.5rem;
+            top: 82rem;
+        }
+
+        .sky-circle {
+            width: 70rem;
+            height: 70rem;
+            top: 30%;
+        }
+
+        .yellow-image {
+            height: 30rem;
+            bottom: 15.2rem;
+        }
+
+        .counter-sec {
+            img {
+                top: 1rem;
+                left: -5rem;
+            }
+        }
+
+    }
+
+    .book-section {
+
+        .book-contect{
+
+            &::after {
+                height: 16.5rem;
+                top: 15rem;
+            }
+
+            &::before {
+                right: -6rem;
+                bottom: 40rem;
+            }
+        }
+    }
+
+
+    .recent-blogs{
+
+        &::before {
+            left: -40rem;
+            top: 50rem;
+        }
+
+        h1{
+            &::after {
+                right: 3rem;
+            }
+        }
+
+        .three-post {
+            .post-box-1 {
+                h3 {
+                    font-family: "Poppins";
+                    font-weight: 600;
+                    font-size: 20px;
+                    margin: 15px 0;
+                    color: #161616;
+                }
+
+                .date-box {
+                    top: 19.7rem;
+                }
+
+                .box-size {
+                    min-height: 18.4rem;
+                }
+            }
+        }
+
+        .recent-after-image {
+
+            &::after {
+                top: 30rem;
+                left: 2rem;
+            }
+        }
+    }
+
+    .teacher-details-box {
+        padding: 5rem 0 7rem;
+    }
+
+    .groupclasses2 {
+
+        .subject-total {
+            padding: 1.5rem 1rem;
+        }
+    }
+
+    .subject-button {
+        .subject1 {
+            width: 40% !important;
+        }
+
+        .subject1-btn {
+            width: 58% !important;
+        }
+    }
+
+    .teachers-description p a.btn.becomaninstructor {
+        margin-left: 0.5rem;
+        font-size: 12px;
+    }
+
+    .main-footer {
+
+        .newsletter input {
+            width: 60%;
+        }
+
+        .footer-bg-image {
+            padding: 6rem 0rem;
+        }
+
+        .footer-content {
+            h1 {
+                font-size: 1.8rem;
+            }
+        }
+
+        .newsletter {
+            width: 24%;
+            padding: 3.2rem 1rem;
+
+            p{
+                font-size: 1.5rem;
+            }
+        }
+
+        .logo-sec {
+            width: 16%;
+            .social-icon {
+                svg {
+                    width: 2.5rem;
+                    height: 2.5rem;
+                }
+
+                a {
+                    margin-right: 0.5rem;
+                }
+            }
+            img {
+                max-width: 14rem;
+                max-height: 6rem;
+            }
+        }
+
+        .contactinfo {
+            width: 22%;
+            a {
+                font-size: 1.5rem;
+                svg {
+                    width: 2rem;
+                    height: 2rem;
+                    margin-right: 0.5rem;
+                }
+            }
+        }
+
+        .quicklinks {
+
+            .menu-section{
+
+                a{
+                    font-size: 1.5rem;
+                }
+            }
+
+            width: 32%;
+            .menu-section {
+                .menu-first {
+                    width: 48%;
+                }
+            }
+        }
+    }
+
+    .teachers-description {
+        .specialization {
+            .Specialization-tag {
+                .btn {
+                    min-width: 7rem;
+                    margin-right: 0.5rem;
+                }
+            }
+        }
+    }
+
+
+  }
+
+//   @media screen and (max-width: 1199px)
+
+  @media screen and (max-width: 1199px) {
+
+    .offcanvas-body {
+        flex-direction: column-reverse;
+        align-items: end !important;
+
+        .mx-auto.navbar-nav {
+            margin-right: 0 !important;
+        }
+    }
+
+    .instrutors.courses-page {
+        .instructors-top-four {
+            flex-wrap: wrap;
+            row-gap: 2rem;
+
+            .easy-box-1.dropdown-select{
+                width: 48% !important;
+            }
+
+            .easy-box-1.range-section {
+                width: 48% !important;
+                .dropdown::after {
+                display: none !important;
+            }
+        }
+
+        }
+    }
+
+    .login-main-section {
+        .login-main-section1 {
+            width: 40%;
+        }
+        .login-main-section2{
+            width: 60%;
+        }
+    }
+
+    .on-demand-class-type {
+        .coupon-button {
+            input {
+                width: 70%;
+            }
+        }
+
+        .select-subject-level-card {
+            padding: 2rem;
+            border-radius: 1rem !important;
+        }
+    }
+
+    .completeprofile {
+        .personaldetails-main-section {
+            .personaldetails-section {
+                padding: 2rem;
+                border-radius: 1rem;
+                
+                .personal-details-fields {
+                    padding: 2rem;
+                    border-radius: 1rem;
+                }
+            }
+        }
+    }
+
+
+
+    .complete-profile2 {
+        .drag-image-video {
+            .form-control::file-selector-button{
+                padding: 1.6rem 2rem;
+                width: 15rem;
+            }
+        }
+    }
+
+    .cros-button-sub {
+        width: 8% !important;
+    }
+
+    .complete-profile2 {
+        .accountfield {
+            .subject-level-cros-section {
+                .accountfield-first, .accountfield-first.dropdown-select.grade-option {
+                    width: 43% !important;
+                }
+
+                .accountfield-first.cros-button-sub {
+                    width: 8% !important;
+                }
+            }
+        }
+    }
+
+    .wishlist-card-instructors {
+        .card-main-section {
+            padding: 1rem;
+            border-radius: 1rem;
+
+            .video-section {
+                width: 23%;
+            }
+
+            .details-box {
+                width: 75%;
+            }
+        }
+    }
+
+    .instructor-profile.walletpayment {
+        .wallet-card-main-section {
+            .wallet-card {
+                .balance-card {
+                    span {
+                        font-size: 2.5rem;
+                    }
+                }
+
+                .balance-amount {
+                    h3 {
+                        margin: 2.5rem 0;
+                    }
+                }
+            }
+        }
+    }
+
+    .manages-section, .transactionhistory-table{
+        .table-responsive {
+            border-radius: 1rem;
+        }
+    }
+
+
+    .problem-solving-box {
+        padding: 2rem;
+        border-radius: 1rem;
+    }
+
+    .change-password-box {
+        padding: 1rem;
+        border-radius: 1rem;
+    }
+
+    .myprofile-section{
+        .tab-section-profile, .my-profile-details {
+            padding: 1rem;
+            border-radius: 1rem;
+
+            .tab-section-profile.tab-section-profile2{
+                padding: 1rem 1rem 20px !important;
+            }
+        }
+    }
+
+    .addavailability-myprofile-tab {
+        .addavailability-myprofile-tab-content {
+            .nav.nav-tabs {
+                .nav-link {
+                    padding: 1.4rem 0;
+                    font-size: 1.4rem;
+                }
+
+                .nav-item {
+                    width: 13.5%;
+                }
+            }
+        }
+    }
+
+    .class-modal.group-class-detail-modal .modal-dialog, .class-modal.problemsolving.rejectbooking.paymentmethod .modal-dialog {
+        max-width: 85rem;
+    }
+
+    .easy-box-content {
+        padding: 5rem 2rem;
+    }
+
+    .groupclasses2 {
+        .three-box-classes {
+            padding: 1rem;
+            border-radius: 1rem;
+            .subject-button::after {
+                width: calc(100% + 2rem);
+                left: -1rem;
+            }
+
+            .subject {
+                .subject1.date {
+                    .btn {
+                        padding: 0.3rem;
+                    }
+                }
+            }
+        }
+        
+    }
+
+    .top-navbar {
+
+        .header-devid-section {
+            flex-direction: column-reverse;
+            align-items: end;
+
+            .menu-main-header {
+                width: 100%;
+            }
+        }
+        .header-button-group {
+            line-height: 4.3rem;
+            margin-bottom: 0.5rem;
+            width: 100%;
+
+            a.login {
+                img {
+                    width: 3rem;
+                    height: 3rem;
+                    margin-right: 1rem;
+                }
+            }
+
+            .language-dropdown.dropdown-select {
+                height: 4.5rem;
+            }
+        }
+    }
+
+
+
+    .chat-box-section {
+        .user-online-box {
+            ul {
+                .user-card {
+                    .user-box-main {
+                        padding: 1rem 1rem;
+
+                        .user-name-box {
+                            width: 50%;
+
+                            h2 {
+                                white-space: nowrap;
+                                text-overflow: ellipsis;
+                                overflow: hidden;
+                            }
+
+                            p {
+                                white-space: nowrap;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                            }
+                        }
+
+                        .time-box {
+                            width: 30%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .getverificationbadge-section, .payment-box-main-content {
+        .plan-section {
+            gap: 1rem;
+            .plan-box {
+                .radio-box {
+                    label {
+                        padding: 0 1rem 0 4rem;
+                    }
+
+                     input {
+                        width: 20px;
+                        height: 20px;
+                        top: 4rem;
+                        left: 1rem;
+
+                        &:checked::before {
+                            width: 10px;
+                            height: 10px;
+                        }
+                    }
+
+                    h3 {
+                        font-size: 1.4rem;
+                    }
+
+                    h2 {
+                        font-size: 2.5rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .classesdetails-page {
+        .classes-tabs-three {
+            .nav.nav-tabs {
+                .nav-link {
+                    font-size: 1.6rem;
+                    padding: 1.5rem 0;
+                    border-radius: 1rem;
+                }
+            }
+        }
+    }
+
+    .qualifications-section{
+        .addmoresubjects-section {
+            .myprofilebox3.cros-button-sub {
+                width: 12% !important;
+            }
+
+            .myprofilebox3 {
+                width: 41%;
+            }
+    }
+    }
+
+    .sidemenu-profile {
+        .profile-image-box {
+            display: block;
+
+            .profile-img {
+                width: 30%;
+                margin: 0 auto 1rem;
+            }
+
+            .profile-details {
+                width: 100%;
+                text-align: center;
+
+                h2 {
+                    font-size: 2rem;
+                    margin-bottom: 0rem;
+                }
+
+                p {
+                    margin-bottom: 1rem;
+                    font-size: 1.6rem;
+                }
+            }
+        }
+
+        .sidebar-menu {
+            a {
+                font-size: 1.6rem;
+                margin-bottom: 1rem;
+            }
+
+
+            span {
+                width: 3.5rem;
+                height: 3.5rem;
+
+                svg {
+                    width: 1.8rem;
+                    height: 1.8rem;
+                }
+            }
+        }
+    }
+
+    .on-off-section {
+        display: block;
+
+        .img-on {
+            width: 40%;
+            margin: 0 auto;
+        }
+
+        .on-off-content {
+            width: 100%;
+            padding: 1rem 0;
+            text-align: center;
+
+            p {
+                font-size: 1.6rem;
+
+                .btn {
+                    font-size: 1.6rem;
+                }
+            }
+        }
+    }
+
+
+    .myprofile-section {
+        .tab-section-profile {
+
+            .nav-tabs {
+                .nav-link {
+                    font-size: 1.6rem;
+                }
+            }
+
+            .myprofilebox2 {
+                display: block;
+
+                .myprofilebox1 {
+                    width: 100%;
+                    margin-bottom: 3rem;
+
+                    .drag-image-video {
+                        width: 70%;
+                    }
+                }
+
+                .myprofilebox1.dropdown-select.subject-level-box {
+                    width: 100%;
+                }
+
+                .myprofilebox1availability {
+                    display: block;
+
+                    .time-col {
+                        width: 100%;
+                        margin-bottom: 1rem;
+                    }
+
+                    .checkbox-main-section {
+                        width: 100%;
+                        margin-bottom: 1rem;
+                    }
+                }
+
+                .myprofilebox1.certificate-file-box {
+                    width: 80%;
+                }
+            }
+        }
+    }
+
+    .booking-request-section {
+        .booking-filter {
+            .btn {
+                margin-right: 1.5rem;
+            }
+        }
+    }
+
+    .booking-request-section.classes-tabs-three.ratingsreviews-page-instructor {
+        .ratingsreviews-tab {
+            padding: 1rem;
+            border-radius: 1rem;
+        }
+
+        .received-tab {
+            padding: 2rem;
+            border-radius: 1rem;
+
+            .total-reviews{
+                &::after {
+                    width: calc(100% + 4rem);
+                    left: -2rem;
+                }
+            }
+        }
+    }
+
+    .on-off-section.invitecode {
+        .on-off-content {
+            width: 100%;
+            margin-top: 1rem;
+        }
+    }
+
+
+    .change-password-box {
+        .password-profile-box {
+            display: block;
+
+            .password-profile-box1 {
+                width: 100%;
+                margin-bottom: 3rem;
+            }
+        }
+    }
+    
+    
+
+    .termsconditions {
+        margin: 5rem 0 10rem;
+    }
+
+    .crose-button {
+        top: 2rem;
+        right: 2rem;
+    }
+
+    .accountfield-fb-goo-button-sec {
+        .btn {
+            min-width: 13rem;
+            padding: 0 1rem;
+        }
+    }
+
+    .teachers-description p {
+        margin-top: 1rem;
+    }
+
+    .blog {
+        .easy-box-content {
+            padding: 3rem 1rem 0;
+
+            .menu-blog {
+                .btn {
+                    margin-right: 1.5rem;
+                    font-size: 1.6rem;
+                }
+            }
+        }
+
+        .instru-bg-image {
+            min-height: 32rem;
+        }
+    }
+
+    .top-navbar {
+        a {
+            margin-left: 2rem;
+            font-size: 1.6rem;
+        }
+
+        a.login {
+            margin-right: 2rem;
+            font-size: 1.5rem;
+
+            img {
+                margin-right: 1rem;
+                width: 3rem;
+                height: 3rem;
+            }
+
+            svg {
+                width: 2.2rem;
+                height: 2.2rem;
+            }
+        }
+
+         .header-button-group {
+
+            a.becomaninstructor {
+                padding: 1rem 2rem;
+                font-size: 1.5rem;
+                height: 4.5rem;
+            }
+
+            a.joinnow {
+                margin-right: 0rem;
+                padding: 1rem 2rem;
+                font-size: 1.5rem;
+                height: 4.5rem;
+                width: 10rem;
+            }
+         }
+
+        a.active:after {
+            top: 2.8rem;
+        }
+    }
+
+    .top-section{
+        .content-section-top {
+            h1 {
+                font-size: 5rem;
+            }
+        }
+    }
+
+    .blogdetail {
+        .blogdetails-section {
+            .comments-section{
+                .post-input {
+                    input {
+                        width: 62%;
+                    }
+                }
+            }
+        }
+    }
+
+    .whychoose-section {
+        .card-section {
+            .box1 {
+                h2 {
+                    white-space: nowrap;
+                }
+            }
+        }
+
+        .sky-dot {
+            left: -7rem;
+            top: 8rem;
+        }
+
+        .yellow-image {
+            background-color: #ffffff;
+            height: 32rem;
+            bottom: 7rem;
+        }
+
+        .yellow-dot {
+            width: 4.5rem;
+            top: 85rem;
+        }
+
+        .counter-sec {
+
+            img {
+                top: 8rem;
+                left: -3rem;
+            }
+           }
+    }
+
+    .book-section {
+
+        .book-contect{
+
+            &::after {
+                height: 16.5rem;
+                top: 15rem;
+            }
+
+            &::before {
+                right: -8rem;
+                bottom: 45rem;
+            }
+        }
+
+        .three-box {
+            padding: 20px 10px 20px 50px;
+
+            h1 {
+                font-size: 25px;
+                line-height: 70px;
+            }
+
+            .rounded-box {
+                left: -3rem;
+                width: 70px;
+                height: 70px;
+            }
+        }
+    }
+
+
+    .recent-blogs {
+
+        .three-post {
+
+            .post-box-1 {
+                .date-box {
+                    top: 21.2rem;
+                }
+
+                .box-size {
+                    min-height: 22.8rem;
+                }
+            }
+        }
+    }
+
+    .teacher-details-box {
+        .teacher-main-section {
+            .teacher-details {
+                padding: 3rem 2rem;
+
+                .main-details2 {
+                    .detai1 {
+                        h1 {
+                            font-size: 1.6rem;
+                        }
+
+                        h2 {
+                            font-size: 18px;
+                        }
+                    }
+                }
+            }
+
+            .detai1 {
+                .btn {
+                    min-width: 100%;
+                }
+            }
+        }
+    }
+
+    .teachers-description {
+        .feescharges-sec {
+            padding: 2rem 1rem;
+        }
+    }
+    .home-page {
+        h1 {
+            font-size: 3.5rem;
+        }
+
+        .view-courses {
+            margin-top: 30px;
+            line-height: 60px;
+        }
+    }
+
+    .groupclasses2 .subject-total h2 {
+        font-size: 1.4rem;
+    }
+    
+  }
+
+//   @media screen and (max-width: 991px) 
+
+
+  @media screen and (max-width: 991px) {
+
+    .instructor-profile {
+        .instru-bg-image {
+            min-height: 28rem;
+
+            h1 {
+                padding-top: 8rem;
+            }
+        }
+    }
+
+    .courses-page {
+        .easy-box-content {
+            .input-content-easy {
+                .easy-box-1 {
+                    width: 60%;
+                }
+
+                .easy-box-1.dropdown-select{
+                    width: 38%;
+                }
+            }
+        }
+    }
+
+    .instrutors.courses-page {
+        .easy-box-content {
+            .input-content-easy {
+                .easy-box-1 {
+                    width: 30%;
+                }
+
+                .easy-box-1.dropdown-select{
+                    width: 33%;
+                }
+            }
+        }
+    }
+
+    .login-main-section {
+        .login-main-section1 {
+            width: 50%;
+        }
+        .login-main-section2{
+            width: 50%;
+        }
+    }
+
+    .class-modal.problemsolving.rejectbooking.paymentmethod.available-coupons {
+        .card-coupons-box1 {
+            padding: 1.5rem;
+            border-radius: 1.5rem;
+
+            h3{
+                font-size: 1.6rem;
+
+                span{
+                    font-size: 1.8rem;
+                }
+            }
+
+            .btn{
+                font-size: 1.4rem;
+            }
+        }
+    }
+
+    .on-demand-class-type {
+        .select-subject-level-card.payment-box-main-content {
+            .payment-three-card{
+                flex-wrap: wrap;
+                row-gap: 2rem;
+
+                .cardnumber-box {
+                    width: 100%;
+
+                    .btn {
+                        min-height: 15rem;
+                    }
+                }
+            }
+
+            .payment-three-card.payment-box-four-time {
+                .cardnumber-box {
+                    width: 49%;
+                }
+            }
+        }
+
+        .amount-text {
+            font-size: 1.6rem;
+        }
+
+        .payable-amount-card-box {
+            .btn {
+                min-width: 4rem;
+                height: 4rem;
+                margin-top: 1rem;
+            }
+        }
+
+        .coupon-button {
+            input {
+                width: 65%;
+            }
+        }
+    }
+
+    .availability-box-main {
+        .classes-tabs-three {
+            .nav.nav-tabs {
+                .nav-item {
+                    width: 14%;
+                }
+            }
+        }
+    }
+
+    .instructorcompleteprofile {
+        .instru-bg-image {
+            min-height: 28rem;
+
+            h1 {
+                padding-top: 8rem;
+            }
+        }
+    }
+
+    .complete-profile2 {
+        .accountfield {
+            .accountfield-first {
+                width: 49%;
+            }
+
+            .accountfield-first.text-area-box {
+                .drag-image-video {
+                    width: 50%;
+                }
+            }
+
+            .subject-level-cros-section {
+                .accountfield-first, .accountfield-first.dropdown-select.grade-option {
+                    width: 42% !important;
+                }
+
+                .accountfield-first.cros-button-sub {
+                    width: 10% !important;
+                }
+            }
+        }
+
+        .grade-option {
+            width: 90% !important;
+        }
+    }
+
+    .completeprofile {
+        .personaldetails-main-section {
+
+            h2 {
+                font-size: 2rem;
+            }
+
+            .personaldetails-section {
+                padding: 1rem;
+                .personal-details-fields {
+                    padding: 2rem;
+                    border-radius: 1rem;
+                }
+            }
+        }
+    }
+
+
+    .wishlist-card-instructors {
+        .card-main-section {
+            .video-section {
+                button.btn {
+                    top: 7rem;
+                    right: 6rem;
+                }
+            }
+        }
+    }
+
+    .change-password-box {
+        .accordion-button {
+            font-size: 2rem;
+        }
+    }
+
+    .groupclasses2 {
+        .three-box-classes {
+            padding: 2rem;
+            border-radius: 2rem;
+            .subject-button::after {
+                width: calc(100% + 4rem);
+                left: -2rem;
+            }
+
+            .subject {
+                .subject1.date {
+                    .btn {
+                        padding: 0 1rem;
+                    }
+                }
+            }
+        }
+        
+    }
+
+    .chat-box-section {
+        .user-online-box {
+            ul {
+                .user-card {
+                    .user-box-main {
+                        padding: 2rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .addavailability-myprofile-tab {
+        .morning-slot-box {
+            .radio-box {
+                label {
+                    font-size: 1.6rem;
+                    span {
+                        font-size: 1.4rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .time-slots-box-section{
+        .radio-box {
+            label {
+                font-size: 1.4rem !important;
+            }
+        }
+    }
+
+    .getverificationbadge-section, .payment-box-main-content {
+        .payment-three-card {
+            .cardnumber-box {
+                .radio-box {
+                    input {
+                        bottom: 1rem;
+                        right: 1rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .bolg-card-main {
+        padding: 1rem;
+        border-radius: 2rem;
+
+        .editdelete {
+            right: 2rem;
+            top: 2rem;
+        }
+
+        .name-comment-section {
+            span.name-customer::after {
+                display: none;
+            }
+        }
+    }
+
+    .chat-box-section {
+        .user-online-box {
+            ul .user-card {
+                .user-box-main {
+                    .user-name-box {
+                        width: 60%;
+                    }
+                }
+            }
+        }
+    }
+
+    .class-modal.group-class-detail-modal {
+        .modal-dialog {
+            max-width: 70rem;
+        }
+
+        .group-modal-section {
+            .group-img {
+                height: 30rem;
+            }
+
+            h2 {
+                font-size: 3rem;
+            }
+
+            .aboutgroupclass-section {
+                h2 {
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+
+    .class-modal.problemsolving.rejectbooking.paymentmethod {
+        .modal-dialog {
+            max-width: 70rem;
+        }
+
+        .modal-body {
+            padding: 0 3rem;
+        }
+    }
+
+    .myprofile-section {
+        margin: 5rem 0;
+
+        .profile-top-heading {
+            margin-top: 3rem;
+        }
+
+        .tab-section-profile {
+            .myprofilebox2 {
+                .myprofilebox1 {
+                    .drag-image-video {
+                        width: 50%;
+                    }
+                }
+
+                .myprofilebox1.certificate-file-box {
+                    width: 100%;
+                }
+
+                .myprofilebox1availability {
+                    .radio-box {
+                        label {
+                            min-width: 8rem;
+                            padding: 0 0rem 0 3.5rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .on-off-section, .on-off-section.invitecode {
+        padding: 1rem;
+        .img-on {
+            width: 20%;
+            margin: 0 auto;
+        }
+    }
+
+    .offcanvas.offcanvas-end {
+        z-index: 99999;
+    } 
+
+   .profileuser-desktop {
+        display: none;
+    }
+
+    .profileuser-mobile {
+        display: block;
+    }
+
+    .myprofile-section .sidemenu-profile {
+        display: none;
+    }
+
+
+    .contact-us {
+        .contact-us-bg {
+            .getintouch {
+                padding: 3rem 3rem 4rem 3rem;
+            }
+        }
+    }
+
+    .top-navbar {
+        .header-devid-section {
+                flex-direction: row-reverse;
+                align-items: center;
+                width: 75%;
+            .menu-main-header {
+                width: 5%;
+            }
+        }
+    }
+
+    .termsconditions {
+        p {
+            margin-bottom: 1rem;
+        }
+    }
+
+
+    .blog {
+
+        .easy-box-content {
+            padding: 3rem 2rem 0;
+            .menu-blog {
+                .btn {
+                    margin-right: 2rem;
+                }
+            }
+
+            .menu-blog {
+                overflow: auto;
+            }
+        }
+    }
+
+    .createaccount-page .accountfield .accountfield-first {
+        width: 100%;    
+    }
+
+    .login-main-section .accountfieldmain {
+        padding-top: 2rem;
+    }
+
+    .accountfield-signup {
+        .btn {
+            min-width: 100% !important;
+        }
+    }
+
+    .login-main-section {
+
+        .check-box-create {
+            label {
+                font-size: 13px;
+                margin-left: 10px;
+                line-height: 20px;
+            }
+        }
+    }
+
+    .login-main-section {
+        .accountfield {
+            display: block;
+        }
+    }
+
+    .accountfield-fb-goo-button-sec {
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        .facebook {
+            margin-right: 0px;
+            width: 48%;
+        }
+
+        .linkedIn {
+            margin-top: 2rem;
+            width: 100%;
+            text-align: center;
+        }
+
+        .btn {
+            min-width: 100%;
+        }
+    }
+
+    .login-main-section {
+        h1 {
+            font-size: 35px;
+            margin-bottom: 10px !important;
+        }
+
+        p{
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
+
+    .blogdetail {
+        .feescharges-sec2 {
+            width: 100%;
+        }
+        .teachers-description {
+            margin-top: 3rem;
+            .sidebar-details .specialization{
+                margin-top: 0;
+            }
+        }
+        .blogdetails-section {
+            .comments-section{
+                .post-input {
+                    input {
+                        width: 72%;
+                    }
+                }
+            }
+        }
+    }
+
+
+    .navbar-toggler-icon {
+        display: inline-block;
+        width: 2.5em;
+        height: 2.5em;
+        vertical-align: middle;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='64' viewBox='0 0 16.933 16.933'%3E%3Cpath fill='%23fed756' d='M12.271 1.323H1.984c-1.1-.042-1.1 1.63 0 1.588H12.23c1.08.042 1.122-1.588.042-1.588zM1.984 7.673c-1.058 0-1.058 1.587 0 1.587h5.8c1.08 0 1.08-1.587 0-1.587zm0 6.35c-1.058 0-1.058 1.587 0 1.587h12.997c1.058 0 1.058-1.587 0-1.587z'%3E%3C/path%3E%3C/svg%3E");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+        transform: rotate(180deg);
+        opacity: 1;
+    }
+
+    .groupclasses2 .subject-total h2 {
+        font-size: 1.6rem;
+    }
+
+    .easy-box-content {
+        h1 {
+            font-size: 2.5rem;
+        }
+    }
+
+    .top-navbar {
+        .navbar-brand {
+            width: 23%;
+            img.logo-header {
+                width: 60%;
+            }
+        }
+    }
+    
+    button.navbar-toggler.collapsed {
+        background-color: rgba(255, 255, 255, 0);
+        border: 0px solid #fff0;
+        padding: 0;
+    }
+
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: unset;
+        box-shadow: unset;
+    }
+
+    .offcanvas-header {
+        background-color: #005eb5;
+        padding: 2rem 2rem 0;
+
+        .btn-close {
+            box-sizing: content-box;
+            width: 1em;
+            height: 1em;
+            padding: 1rem;
+            background-color: #3c89d1;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20.484' height='20.479' viewBox='0 0 20.484 20.479'%3E%3Cpath id='Icon_ionic-ios-close' data-name='Icon ionic-ios-close' d='M23.954 21.528l7.316-7.316a1.714 1.714 0 0 0-2.424-2.424L21.53 19.1l-7.316-7.316a1.714 1.714 0 1 0-2.424 2.424l7.316 7.316-7.316 7.316a1.714 1.714 0 0 0 2.424 2.424l7.316-7.316 7.316 7.316a1.714 1.714 0 0 0 2.424-2.424Z' transform='translate(-11.285 -11.289)' fill='%23fff'/%3E%3C/svg%3E");
+            border: 0;
+            border-radius: 0.375rem;
+            opacity: 1;
+        }
+    }
+
+    .offcanvas-body {
+        background-color: #005EB5;
+        padding: 2rem;
+
+        a {
+            font-size: 1.6rem;
+            padding: .6rem 0;
+            color: #fff;
+            font-family: 'Roboto';
+            font-weight: 500;
+            position: relative;
+            text-decoration: none;
+    
+            &:hover{
+                color: #FED756;
+            }
+        }
+
+        a.active {
+            color: #FED756;
+    
+            &:after {
+                content: "";
+                border-bottom: .2rem solid;
+                width: 3rem;
+                position: absolute;
+                top: 3.5rem;
+                left: 0;
+            }
+        }
+
+        .navbar-nav a {
+            margin: 0.2rem 0;
+        }
+    }
+
+    .header-button-group {
+        display: flex;
+        flex-direction: unset;
+        align-items: center;
+        width: 90% !important;
+        margin-bottom: 0 !important;
+        margin-right: 2rem;
+
+        a.login {
+            display: flex;
+            align-items: center;
+
+            span {
+                margin-left: 0rem;
+            }
+        }
+
+        a.becomaninstructor {
+            width: 20rem;
+            text-align: center;
+            padding: 1.5rem 1rem !important;
+        }
+
+        a.joinnow {
+            width: 20rem;
+            text-align: center;
+            padding: 1.5rem 1rem;
+        }
+
+        .language-dropdown.dropdown-select {
+            margin-left: 1rem;
+            margin-top: 0;
+        }
+    }
+
+    .top-section {
+        .content-section-top{
+            h1 {
+                font-size: 3.8rem;
+                line-height: 5rem;
+            }
+        }
+
+        .search-button-section {
+            input {
+                width: 45%;
+            }
+        }
+    }
+
+    .home-page h1 {
+        font-size: 2.6rem;
+        line-height: 3rem;
+    }
+
+    .whychoose-section {
+        .card-section {
+            .box1 {
+                margin-bottom: 4rem;
+            }
+        }
+
+        .sky-circle {
+            width: 50rem;
+            height: 50rem;
+            top: 20%;
+            right: 40%;
+        }
+
+        .card-section {
+            margin-top: 40px;
+            margin-bottom: 60px;
+        }
+
+        .counter-sec {
+            margin-bottom: 2rem;
+            img {
+                top: 0rem;
+                left: -3rem;
+                position: inherit;
+            }
+        }
+
+        .yellow-dot {
+            width: 10.5rem;
+            top: 75rem;
+        }
+
+        .four-card {
+            hr {
+                margin: 15px auto 40px 0;
+            }
+        }
+    }
+
+    .book-section {
+        padding-bottom: 40px;
+        .book-contect{
+            &::after {
+                height: 8.5rem;
+                top: 20rem;
+                left: 2rem;
+            }
+
+            &::before {
+                right: -9rem;
+                bottom: 34rem;
+            }
+        }
+
+        .counter-section-main {
+            display: inline-block;
+            margin: 0 0px 0 0rem;
+
+            .counter-box1 {
+                width: calc(50% - 4rem);
+                display: inline-block;
+                margin: 1rem 2rem;
+            }
+        }
+    }
+
+    .recent-blogs {
+
+        h1{
+            &::after {
+                height: 15rem;
+                top: 8rem;
+            }
+        }
+
+        .three-post {
+            position: relative;
+            padding: 0 30px;
+            margin-top: 70px;
+
+            &::before {
+                height: 36%;
+                top: 63.7%;
+            }
+
+            .post-box-1{
+                
+                .box-size {
+                    min-height: 18.8rem;
+                }
+
+                .date-box {
+                    top: 20.7rem;
+                }
+            }
+        }
+
+    }
+
+    .questions-section {
+        margin-bottom: 150px;
+    }
+
+    .main-footer {
+
+        .footer-content {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .logo-sec {
+            width: calc(50% - 2rem);
+            margin-right: 2rem;
+            display: inline-block;
+            margin-bottom: 3rem;
+
+            img {
+                max-width: 15rem;
+            }
+
+            .social-icon{
+
+                a {
+                    margin-right: 1rem;
+                }
+
+            }
+        }
+
+        .contactinfo {
+            width: calc(50% - 2rem);
+            margin-left: 2rem;
+            display: inline-block;
+            margin-bottom: 3rem;
+        }
+
+        .quicklinks {
+            width: calc(50% - 2rem);
+            margin-right: 2rem;
+            display: inline-block;
+        }
+
+         .newsletter {
+            width: calc(50% - 2rem);
+            margin-left: 2rem;
+            padding: 3.2rem 1rem;
+            display: inline-block;
+        }
+    }
+
+    .easy-box-content {
+        padding: 3rem 2rem;
+    }
+
+    .instru-bg-image {
+        min-height: 35rem;
+    }
+
+    .easyfind-box {
+        .easy-box-ab {
+            top: -9rem;
+        }
+    }
+
+    .easy-box-content .input-content-easy input, .easy-box-content .input-content-easy select {
+        padding: 17px 1rem;
+    }
+
+    .teacher-details-box {
+        .teacher-main-section {
+            .teacher-details {
+                display: block;
+                width: 64%;
+                .main-deatils1 {
+                    width: 100%;
+                }
+
+                .main-details2 {
+                    width: 100%;
+                    margin-top: 2rem;
+
+                    .detai1 {
+                        .highest {
+                            padding-top: 1.5rem;
+                        }
+                    }
+                }
+
+                .detai1 {
+                    .btn {
+                        min-width: 15rem;
+                        height: 5rem;
+                    }
+    
+                    h1 {
+                        font-size: 2.5rem;
+                        margin-bottom: 1rem;
+                    }
+                 }
+            }
+
+             .teacher-video {
+                width: 34%;
+            }
+        }
+    }
+
+    .teachers-description {
+
+        .sidebar-details {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            
+            .specialization {
+                margin-top: 2rem;
+            }
+        }
+
+        .feescharges-sec {
+            width: 48.6%;
+            padding: 2rem;
+            margin-top: 0;
+        }
+
+        .specialization {
+            .Specialization-tag {
+                .btn {
+                    min-width: 6rem;
+                }
+            }
+        }
+
+    }
+
+    .Instructordetail {
+        .instru-bg-image {
+            min-height: 25rem;
+            h1 {
+                padding-top: 8rem;
+            }
+        }
+    }
+
+    
+  }
+
+//   @media screen and (max-width: 767px) 
+
+  @media screen and (max-width: 767px) {
+
+    .problem-solving-box {
+        .booking-card {
+            .image-box {
+                width: 35%;
+            }
+
+            .booking-details {
+                width: 63%;
+            }
+        }
+    }
+
+    .courses-page {
+        .easyfind-box {
+            min-height: 15rem;
+        }
+        .easy-box-content {
+            .input-content-easy {
+                .easy-box-1 {
+                    width: 100% !important;
+                }
+            }
+        }
+    }
+
+    .instrutors.courses-page {
+
+        .easy-box-content {
+            .input-content-easy {
+                .easy-box-1 {
+                    width: 100% !important;
+                }
+
+                .easy-box-1.dropdown-select {
+                    width: 49% !important;
+                }
+            }
+        }
+
+        .instructors-top-four {
+
+            .easy-box-1.dropdown-select, .easy-box-1.range-section{
+                width: 50% !important;
+            }
+
+            .easy-box-1.range-section{
+                .dropdown{
+                    background-position: center right 1.5rem !important;
+                }
+            }
+
+            .dropdown-select {
+                .css-13cymwt-control, .css-t3ipsp-control {
+                    background-position: center right 1.5rem;
+                }
+            }
+
+        }
+    }
+
+    .blogdetail{
+        .instru-bg-image {
+            min-height: 20rem;
+
+            h1 {
+                padding-top: 6rem;
+            }
+        }
+    }
+
+    .instru-bg-image {
+        min-height: 25rem;
+        p {
+            margin-top: 10px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            padding-bottom: 10px;
+        }
+    }
+
+    ol.course-time-date-drop li {
+        margin-bottom: 1rem;
+    }
+
+    .easy-box-content {
+        .input-content-easy {
+            input, select {
+                padding: 10px 1rem;
+            }
+        }
+    }
+
+    .on-demand-class-type {
+        .select-subject-level-card {
+            padding: 0rem;
+            border-radius: 0rem !important;
+        }
+
+        .payable-amount-card-box {
+            .btn {
+                margin-top: 0rem;
+            }
+        }
+
+        .personaldetails-section.payable-amount-card-box, .personaldetails-section {
+            background-color: #fff !important;
+        }
+
+        .coupon-button {
+            input {
+                width: 89%;
+            }
+        }
+
+        .select-subject-level-card.payment-box-main-content {
+            .payment-three-card.payment-box-four-time {
+                .cardnumber-box {
+                    width: 100%;
+                    text-align: center;
+                }
+            }
+        }
+
+        .select-subject-level-card.payment-box-main-content.selectplan {
+            .cardnumber-box {
+                width: 100% !important;
+            }
+        }
+    }
+
+
+    .complete-profile2 {
+        .accountfield {
+            row-gap: 2rem;
+            .accountfield-first {
+                width: 100%;
+            }
+
+            .accountfield-first.text-area-box {
+                .drag-image-video {
+                    width: 60%;
+                }
+            }
+
+            .subject-level-cros-section{
+                row-gap: 2rem;
+                .accountfield-first, .accountfield-first.dropdown-select.grade-option, .accountfield-first.cros-button-sub{
+                    width: 100% !important;
+                }
+            }
+
+            .number-months-year{
+                row-gap: 2rem;
+            }
+        }
+
+        .grade-option {
+            width: 100% !important;
+        }
+
+        .cros-button-sub {
+            width: 100% !important;
+        }
+    }
+
+    .instructorcompleteprofile {
+        .instru-bg-image {
+            min-height: 22rem;
+
+            h1 {
+                padding-top: 5rem;
+                font-size: 2.5rem;
+            }
+
+            p {
+                margin-top: 8px;
+                font-size: 1.4rem;
+            }
+        }
+    }
+
+    .completeprofile {
+        margin: 3rem 0;
+
+        ul._1Lo2h {
+            margin: 0 0 2rem;
+
+            ._1hzhf {
+                display: none;
+            }
+
+            li._2Jtxm._35Ago {
+                span._2kL0S {
+                    font-size: 1.6rem;
+                    padding: 1rem;
+                }
+            }
+        }
+
+        .personaldetails-main-section {
+            .personaldetails-section {
+                padding: 0rem;
+                border-radius: 0;
+                .personal-details-fields {
+                    padding: 0;
+                    border-radius: 0;
+                }
+            }
+        }
+
+            ._3uApM a._2pGos._hsN1w, ._3uApM a._2pGos._3CDiP {
+                min-width: 15rem;
+                height: 6rem;
+            }
+    }
+
+
+    .availability-box-main {
+        .classes-tabs-three {
+            .nav.nav-tabs {
+                white-space: nowrap;
+                overflow: auto;
+                gap: 2rem;
+                flex-wrap: nowrap;
+                padding: 1rem;
+
+                .nav-item {
+                    width: 100%;
+
+                    .nav-link {
+                        padding: 1rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .wishlist-card-instructors {
+        .card-main-section {
+            .video-section {
+                button.btn {
+                    right: 3.5rem;
+                }
+            }
+        }
+    }
+
+    .card-main-section {
+        .heart-icon {
+            width: 3rem;
+            height: 3rem;
+
+            .btn {
+                min-width: 3rem;
+                height: 3rem;
+            }
+        }
+    }
+
+    .on-off-section {
+        margin-top: 0rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem;
+    }
+
+    .on-off-section, .on-off-section.invitecode{
+        .img-on {
+            width: 30%;
+            margin: 0;
+            align-self: unset;
+        }
+
+        .on-off-content {
+            width: 65%;
+            padding: 0;
+            margin-top: 0;
+        }
+    }
+
+    .booking-request-section {
+        .bookingrequest-card-main {
+            .booking-card {
+                .booking-details {
+                    width: 66% !important;
+                }
+
+                .image-box {
+                    width: 32% !important;
+                }
+            }
+        }
+    }
+
+    .instructor-profile.walletpayment {
+        .wallet-card-main-section {
+            h2 {
+                font-size: 2rem;
+                padding-bottom: 0.5rem;
+            }
+        }
+    }
+
+    .card-main-section {
+        .details-box {
+            h1 {
+                a {
+                    font-size: 1.8rem;
+                }
+            }
+
+            .details-box-first2 {
+                h1 {
+                    font-size: 1.8rem;
+                }
+
+                .btn {
+                    min-width: 8rem;
+                    font-size: 1.3rem;
+                    padding: 0 1rem;
+                }
+            }
+
+            h2 {
+                margin-top: 0rem;
+            }
+
+            p {
+                font-size: 14px;
+                margin-top: 0;
+            }
+        }
+    }
+
+    .flagcheckmark {
+        .Flagimage, .Checkmark {
+            margin-left: 1rem;
+        }
+    }
+
+    .instructor-profile {
+        .instru-bg-image {
+            min-height: 22rem;
+
+            h1 {
+                padding-top: 5rem;
+                font-size: 2.5rem;
+            }
+
+            p {
+                margin-top: 8px;
+                font-size: 1.4rem;
+            }
+        }
+    }
+
+    .login-main-section .accountfield .custom-field.one input {
+        min-height: 5rem !important;
+    }
+
+    .myprofile-section {
+        .my-profile-details, .tab-section-profile {
+            padding: 2rem;
+            border-radius: 2rem;
+        }
+    }
+
+    .booking-request-section {
+        .booking-filter {
+            .form-check-input:checked::after {
+                height: 6px;
+                width: 6px;
+            }
+        }
+    }
+
+    .top-navbar {
+        .navbar-brand {
+            img.logo-header {
+                width: 75%;
+            }
+        }
+    }
+
+    .myprofile-section {
+        .tab-section-profile {
+            .nav-tabs {
+                white-space: nowrap;
+                overflow: auto;
+                gap: 2rem;
+                flex-wrap: nowrap;
+                padding: 1rem;
+
+                &::after{
+                    display: none;
+                }
+            }
+
+            .nav-item {
+                width: 100%;
+            }
+        }
+    }
+
+    .addavailability-myprofile-tab {
+        .addavailability-myprofile-tab-content {
+            .nav.nav-tabs {
+                .nav-item {
+                    width: 100%;
+                }
+
+                .nav-link {
+                    padding: 1rem;
+                }
+            }
+        }
+    }
+
+    .classesdetails-page {
+        .classes-tabs-three {
+            .nav.nav-tabs {
+                .nav-link {
+                    padding: 1rem 0;
+                    border-radius: 1rem;
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+
+    .instructor-profile {
+        .profile-top-heading {
+            h2 {
+                font-size: 2rem;
+            }
+        }
+    }
+
+    .btn {
+        height: 5rem;
+        font-size: 1.4rem;
+        min-width: 15rem;
+        padding: 0 1rem;
+    }
+
+    .change-password-box {
+        .accordion-button{
+            &::after {
+                width: 4rem;
+                height: 4rem;
+            }
+        }
+    }
+
+
+
+    .class-modal.group-class-detail-modal {
+        .modal-dialog {
+            .modal-header {
+                .modal-title.h4 {
+                    font-size: 3rem;
+                }
+            }
+        }
+
+        .group-modal-section {
+            h2 {
+                font-size: 2rem;
+            }
+
+            .group-img {
+                height: 20rem;
+            }
+
+            .profile-box span {
+                font-size: 1.6rem;
+            }
+
+            .user-profile.date {
+                .seats-booked-section.dropdown-select {
+                    width: 49%;
+                }
+
+                .user-profile-card {
+                    h3 {
+                        font-size: 2.5rem;
+                    }
+
+                    p{
+                        font-size: 1.4rem;
+                    }
+                }
+            }
+
+            .user-profile {
+                gap: 0rem;
+            }
+
+            .aboutgroupclass-section {
+                h2 {
+                    font-size: 1.8rem;
+                }
+            }
+
+            .tab-section-class {
+                .questions-section {
+                    .accordion-item {
+                        .accordion-body {
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+    .blog-page-add {
+        .blog-section {
+            .bolg-card-main {
+                width: 100%;
+                padding: 2rem;
+
+                .editdelete {
+                    right: 4rem;
+                    top: 4rem;
+                }
+            }
+        }
+    }
+
+    .chat-box-section {
+        .user-online-box {
+            ul {
+                .user-card {
+                    .user-box-main {
+                        .user-name-box {
+                            width: 55%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .booking-request-section.classes-tabs-three.ratingsreviews-page-instructor {
+        .received-tab {
+            padding: 1rem;
+            border-radius: 1rem;
+            .total-reviews::after {
+                width: calc(100% + 2rem);
+                left: -1rem;
+            }
+        }
+
+        .ratingsreviews-tab {
+            padding: 1rem;
+            border-radius: 1rem;
+        }
+    }
+
+    .class-modal.problemsolving.rejectbooking.paymentmethod {
+        .modal-content {
+            max-width: 55rem;
+            margin: 0 auto;
+        }
+
+        .payment-type {
+            .stripe label {
+                padding: 1.5rem 1rem;
+
+                .form-check {
+                    .form-check-input {
+                        top: 1.5rem;
+                        right: 1.5rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .groupclasses2 {
+        .three-box-classes {
+            padding: 2rem;
+            border-radius: 2.5rem;
+
+            .subject-button::after {
+                width: calc(100% + 4rem);
+                left: -2rem;
+            }
+        }
+    }
+
+    .getverificationbadge-section, .payment-box-main-content  {
+        .plan-section, .payment-three-card {
+            display: block;
+
+            .plan-box, .cardnumber-box {
+                width: 100%;
+                margin-bottom: 2rem;
+            }
+        }
+
+        .paymentmethod-box{
+            .btn {
+                min-height: 15.3rem;
+            }
+        }
+    }
+
+
+    .center-modal.class-modal.problemsolving {
+        .modal-title.h4 {
+            font-size: 3rem;
+        }
+    }
+
+    .addnewblog-page {
+        .bolg-setion {
+            display: block;
+
+            .blog-title, .dropdown-select, .descriptio {
+                width: 100%;
+                margin-bottom: 3rem;
+            }
+
+            .post-button-blog {
+                margin-top: 3rem;
+            }
+        }
+    }
+    
+    
+
+    .center-modal.class-modal.problemsolving .modal-body, .center-modal.class-modal.problemsolving .modal-footer {
+        padding: 0 4rem;
+    }
+
+    .offcanvas-body .become-button {
+        display: block;
+    }
+
+    .myprofile-section {
+        .tab-section-profile {
+            .myprofilebox2 {
+                .myprofilebox1 {
+                    .drag-image-video {
+                        width: 70%;
+                    }
+                }
+            }
+        }
+    }
+
+    .booking-request-section {
+        .booking-filter {
+            .btn {
+                margin-bottom: 1rem;
+            }
+        }
+    }
+
+    .qualifications-section {
+        .addmoresubjects-section {
+            .myprofilebox3 {
+                width: 40%;
+            }
+
+            .myprofilebox3.cros-button-sub {
+                width: 14% !important;
+            }
+        }
+    }
+
+
+
+    .top-navbar {
+        .header-devid-section {
+            width: 70%;
+
+            .menu-main-header {
+                width: 10%;
+            }
+
+            a.becomaninstructor.becomaninstructor-button{
+                display: none;
+            }
+        }
+
+        .header-button-group {
+            a.joinnow {
+                padding: 1rem;
+                width: 10rem;
+                min-width: unset;
+                margin-right: 1rem;
+            }
+
+            .language-dropdown.dropdown-select {
+                margin-left: 0rem;
+            }
+
+            a.login {
+                margin-right: 0rem;
+
+                span.profile-name {
+                    display: none;
+                }
+            }
+
+            .search-toggle {
+                .dropdown {
+                    .dropdown-menu.show {
+                        width: 15rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .contact-us {
+        margin: 5rem 0 10rem;
+        .contact-us-bg {
+            .social-details {
+                padding: 1rem 2rem;
+                border-radius: 1rem;
+                h1 {
+                    margin-bottom: 0.5rem;
+                    font-size: 1.8rem;
+                }
+
+                h3 {
+                    font-size: 1.8rem;
+                }
+
+                a {
+                    padding: 1rem;
+                    border-radius: 5px;
+                }
+            }
+            .getintouch {
+                padding: 2rem;
+                border-radius: 1rem;
+
+                h1 {
+                    font-size: 2.2rem;
+                }
+            }
+        }
+    }
+
+    .login-main-section {
+        flex-wrap: wrap;
+
+        .login-main-section1 {
+            width: 100%;
+            min-height: 25rem;
+        }
+        .login-main-section2 {
+            width: 100%;
+        }
+        .accountfield {
+            display: flex;
+
+            .custom-field.one input + .placeholder {
+                font-size: 14px;
+            }
+        }
+
+        h1 {
+            font-size: 30px;
+        }
+
+        p {
+            font-size: 14px;
+            line-height: 21px;
+            padding-bottom: 10px;
+        }
+
+        .btn {
+            min-width: 10rem;
+            height: 5rem;
+            padding: 0 1rem;
+        }
+
+        .accountfield-fb-goo-button-sec .btn {
+            min-width: 100%;
+        }
+    }
+
+    .login-main-section .login-main-section2 p {
+        padding-bottom: 10px;
+    }
+
+    .createaccount-page .accountfield .accountfield-first {
+        width: 49%;
+    }
+
+    .login-account {
+        .view-courses {
+            margin-top: 20px;
+        }
+    }
+
+    .crose-button {
+        top: 1rem;
+        right: 1rem;
+
+        .btn {
+            min-width: 4rem;
+            height: 4rem;
+            padding: 0.5rem;
+        }
+    }
+
+    .accountfield-fb-goo-button-sec {
+        .facebook {
+            margin-right: 0px;
+            width: 31%;
+        }
+
+        .linkedIn {
+            margin-top: 0rem;
+            width: 31%;
+        }
+    }
+
+
+    .blog {
+        .blog-section {
+            .bolg-card-main {
+                h1 {
+                    font-size: 1.6rem;
+                }
+
+                .name-comment-section {
+                    flex-wrap: wrap;
+                    margin-top: 0;
+
+                    .name-customer {
+                        width: 100%;
+                        margin: 0 0 0.5rem;
+                    }
+                }
+
+                .desceiption-button {
+                    margin: 0;
+                    font-size: 1.4rem;
+
+                    .btn {
+                        font-size: 1.2rem;
+                        margin-left: 0.5rem;
+                    }
+                }
+            }
+        }
+
+
+
+        .instru-bg-image {
+            min-height: 25rem;
+            h1 {
+                padding-top: 3rem;
+                font-size: 2.5rem;
+            }
+
+            p {
+                margin-top: 10px;
+            }
+        }
+    }
+
+        .blogdetail {
+            .teachers-description {
+                .feescharges-sec {
+                    width: 100%;
+                    margin-top: 0rem;
+                    margin-bottom: 2rem;
+                }
+
+                .comments-section{
+                    .post-input {
+                        input {
+                            width: 62%;
+                        }
+                    }
+                }
+            }
+        }
+
+    .top-navbar{
+
+        a.navbar-brand {
+            width: 15rem;
+            
+            img{
+                max-width: 14rem;
+                max-height: 5rem;
+            }
+        }
+    }
+
+    .top-section {
+        .bg-colour-section {
+            clip-path: polygon(0 0, 100% 0%, 100% 100%, 50% 100%, 0 100%);
+            min-height: unset;
+        }
+
+        .bg-image-section {
+            clip-path: polygon(0 0, 100% 0%, 100% 100%, 50% 100%, 0 100%);
+            min-height: unset;
+        }
+
+        .content-section-top {
+            min-height: unset;
+            h1 {
+                font-size: 4rem;
+                line-height: 5rem;
+            }
+        }
+        .search-button-section {
+            margin: 3rem 0;
+            display: flex;
+            flex-direction: inherit;
+            justify-content: center;
+        
+            select#pet-select {
+                border-radius: 0.5rem 0 0 0.5rem;
+                margin: 0px 0 0rem;
+                width: 100%;
+                max-width: 100%;
+            }
+        
+            input {
+                width: 100%;
+                border-radius: 0.5rem;
+            }
+        
+            button {
+                right: -2px;
+                bottom: 0;
+                font-size: 3rem;
+                padding-right: 1rem;
+                padding-left: 1.5rem;
+                margin-top: 1rem;
+            }
+        }
+
+        .scroll-down {
+            margin-top: -2rem;
+        }
+
+        .content-section-top {
+            padding-top: 12rem;
+        }
+    }
+
+
+    .main-footer {
+        .footer-bg-image {
+            padding: 4rem 2rem;
+        }
+
+        .footer-content {
+            display: block;
+        }
+
+        .logo-sec, .contactinfo, .quicklinks, .newsletter {
+            width: 100%;
+            margin: 0;
+        }
+
+        .contactinfo, .quicklinks, .newsletter {
+            margin-top: 4rem;
+        }
+
+        .logo-sec {
+            .social-icon {
+                svg {
+                    width: 3rem;
+                    height: 3rem;
+                }
+
+                a {
+                    margin-right: 1.5rem;
+                }
+            }
+
+            img {
+                max-width: 14rem;
+                height: 5rem;
+            }
+        }
+
+        .quicklinks {
+            .menu-section {
+                    justify-content: flex-start;
+                .menu-first {
+                    width: 30%;
+                }
+            }
+        }
+    }
+
+    .recent-blogs {
+
+        &::after {
+            right: -8rem;
+            bottom: -15rem;
+        }
+        .three-post {
+
+            &::before {
+                height: 24%;
+                top: 76.4%;
+            }
+            .post-box-1 {
+                .box-size {
+                    min-height: unset;
+                }
+            }
+        }
+
+    }
+
+    .book-section {
+
+        .counter-section-main {
+            display: block;
+
+            .counter-box1 {
+                width: 95%;
+                display: inline-block;
+                margin: 1rem 3rem;
+            }
+        }
+
+        .book-contect {
+            &::after {
+                height: 8rem;
+                top: 22rem;
+                left: 1rem;
+            }
+        }
+    }
+
+    .whychoose-section {
+        .sky-dot {
+            left: -9rem;
+            top: 8rem;
+        }
+    }
+
+    .easy-box-content {
+        .input-content-easy {
+            .easy-box-1 {
+                width: 49% !important;
+            }
+
+            .easy-box-1.dropdown-select {
+                width: 100% !important;
+            }
+
+            .easy-box-2{
+
+                width: 100%;
+                text-align: center;
+                margin-top: 1rem;
+
+                .btn {
+                    max-width: 100%;
+                    width: 100%;
+                    height: 5rem;
+                    min-width: unset;
+                }
+            }
+        }
+        .input-content-easy {
+            flex-wrap: wrap;
+            row-gap: 1rem;
+            margin-top: 2rem;
+
+    }
+    }
+
+
+    .easyfind-box {
+        min-height: 30rem;
+
+        .easy-box-ab {
+            top: -6rem;
+        }
+    }
+
+    .class-modal.class-modal {
+        .modal-content {
+            .modal-header {
+                padding: 2rem 0;
+                margin-bottom: 2rem;
+            }
+            .modal-footer {
+                margin: 0rem auto 3rem;
+            }
+        }
+    }
+
+    .teacher-details-box {
+        .teacher-main-section {
+            .teacher-details {
+                display: block;
+                width: 53%;
+                .main-deatils1 {
+                    display: block;
+
+                    p {
+                        margin-bottom: 0;
+                        span {
+                            font-size: 1.6rem;
+                        }
+
+                        svg {
+                            width: 1.8rem;
+                        }
+                    }
+                }
+
+                .main-details2 {
+                    display: block;
+                    margin-top: 0rem;
+
+                    .detai1 {
+                        .highest {
+                            padding-top: 1.5rem;
+                        }
+                    }
+                }
+
+                .detai1 {
+                    width: 100%;
+                    .btn {
+                        min-width: 11rem;
+                        height: 4rem;
+                        margin: 0rem 0 1rem;
+                    }
+    
+                    h1 {
+                        font-size: 2rem;
+                        margin-bottom: 1rem;
+                    }
+                 }
+            }
+
+             .teacher-video {
+                width: 45%;
+            }
+        }
+
+        .main-details2 h1 {
+            margin-bottom: 0.5rem !important;
+            padding: 0 !important;
+            margin-top: 1rem;
+        }
+    }
+
+    .groupclasses2 {
+        .subject-total {
+            display: block;
+        }
+    }
+
+    .teachers-description {
+        .feescharges-sec {
+            width: 100%;
+            margin-top: 2rem;
+        }
+    }
+
+
+  }
+
+
+
+//   @media screen and (max-width: 575px) {
+
+
+  @media screen and (max-width: 575px) {
+
+    .contact-us {
+        .contact-us-bg {
+            padding: 3rem 1rem;
+        }
+    }
+
+    .instrutors.courses-page {
+
+        .instructors-top-four{
+            .css-13cymwt-control, .css-t3ipsp-control{
+                &::after{
+                    display: none;
+                }
+            }
+        }
+
+        .easyfind-box {
+            min-height: 54rem;
+        }
+
+        .easy-box-content {
+            h1 {
+                font-size: 2rem;
+
+                &::after {
+                    left: 42%;
+                }
+            }
+            .input-content-easy {
+                row-gap: 0rem;
+                .easy-box-1.dropdown-select, .easy-box-1.range-section {
+                    width: 100% !important;
+                }
+            }
+        }
+    }
+
+    .class-modal.group-class-detail-modal .group-modal-section .user-profile.date{
+        display: flex;
+
+        .user-profile-card{
+            width: 40%;
+        }
+        .seats-booked-section{
+            width: 60%;
+        }
+    }
+
+    .on-demand-class-type {
+        .coupon-button {
+            input {
+                width: 80%;
+            }
+        }
+    }
+
+    .complete-profile2 {
+        .drag-image-video {
+            .form-control::file-selector-button{
+                width: 13rem !important;
+            }
+        }
+        
+    }
+
+    .completeprofile {
+        ._3uApM a._2pGos._3CDiP, ._3uApM a._2pGos._hsN1w {
+            min-width: 11rem;
+            height: 5rem;
+        }
+
+        .addsubjects-section {
+            h3 {
+                font-size: 1.6rem;
+                line-height: 2.3rem;
+            }
+        }
+    }
+
+
+    .instructor-profile.walletpayment {
+        .wallet-card-main-section {
+            .wallet-card {
+                border-radius: 0rem;
+                padding: 0rem;
+
+                .balance-card {
+                    padding: 1rem;
+
+                    span {
+                        font-size: 2rem;
+                    }
+                    p{
+                        font-size: 1.4rem;
+                    }
+                }
+            }
+
+            h2 {
+                font-size: 1.6rem;
+                padding-bottom: 1rem;
+                line-height: 2rem;
+            }
+
+            .wallet-card.transactionhistory {
+                padding: 0;
+            }
+
+            .coupons-four-card-section {
+                .coupons-card-box-first {
+                    h3 {
+                        font-size: 1.6rem;
+
+                        span {
+                            font-size: 1.8rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .wishlist-card-instructors {
+        .card-main-section {
+            .video-section {
+                width: 100%;
+            }
+
+            .details-box {
+                width: 100%;
+
+                .details-box-first {
+                    width: 100%;
+                }
+
+                .details-box-first2 {
+                    width: 100%;
+                    margin-top: 1rem;
+                }
+            }
+
+            .video-section{
+                button.btn {
+                    right: 45%;
+                }
+            }
+        }
+    }
+
+    .chat-box-section {
+        .user-online-box {
+            ul {
+                .user-card {
+                    .user-box-main {
+                        padding: 1rem;
+
+                        .user-name-box {
+                            width: 50%;
+                        }
+                    }
+                }
+            }
+        }
+
+        .user-profile-chats {
+            .conversation-part, .profile-topbar-section {
+                padding: 1rem;
+            }
+
+            .type-bottom-section {
+                padding: 1rem;
+
+                button {
+                    min-width: 4rem;
+                    max-width: 4rem;
+                    height: 4rem;
+                }
+            }
+        }
+        
+        
+    }
+
+    .blog-page-add {
+        .blog-section {
+            .bolg-card-main {
+                padding: 1rem;
+                border-radius: 1rem;
+            }
+        }
+    }
+
+    .wallet-card.wallet-card2.refer {
+        .copyclipboard-box {
+            .btn {
+                height: 5rem !important;
+            }
+        }
+    }
+
+    .manages-section, .transactionhistory-table {
+        td, th {
+            padding: 2rem 1rem;
+        }
+    }
+
+
+
+
+    .instructor-profile {
+        .instru-bg-image {
+            min-height: 18rem;
+
+            h1 {
+                padding-top: 5rem;
+                font-size: 2rem;
+                padding-bottom: 0.3rem;
+            }
+
+            p {
+                margin-top: 6px;
+                font-size: 1.3rem;
+            }
+        }
+    }
+
+    .myprofile-section {
+        margin: 3rem 0;
+    }
+
+    .class-modal.problemsolving.rejectbooking.paymentmethod {
+        .payment-type {
+            .stripe {
+                .form-check-input {
+                    width: 1.8rem;
+                    height: 1.8rem;
+
+                    &:checked::after {
+                        height: 8px;
+                        width: 8px;
+                    }
+                }
+            }
+        }
+    }
+
+    .problem-solving-box {
+        padding: 0;
+        .booking-card {
+            display: block;
+
+            .image-box {
+                width: 100%;
+                height: 20rem;
+                margin-bottom: 1rem;
+            }
+
+            .booking-details {
+                width: 100%;
+            }
+        }
+    }
+
+    .star-rating label {
+        margin-right: 2rem;
+    }
+    
+    
+
+    .class-modal.group-class-detail-modal {
+        .modal-dialog {
+            .modal-header {
+                .modal-title.h4 {
+                    font-size: 2.5rem;
+                }
+            }
+
+            .modal-body, .modal-footer {
+                padding: 0 2rem;
+            }
+        }
+
+        .group-modal-section {
+            h2 {
+                font-size: 1.8rem;
+            }
+
+            .group-img {
+                height: 15rem;
+            }
+
+            .profile-box span {
+                font-size: 1.6rem;
+            }
+
+            .user-profile.date {
+                .seats-booked-section.dropdown-select {
+                    width: 100%;
+                }
+
+                .user-profile-card {
+                    h3 {
+                        font-size: 2.5rem;
+                    }
+                }
+            }
+
+            .user-profile {
+                gap: 0rem;
+                display: block;
+
+                .user-profile-card {
+                    width: 100%;
+                    margin-bottom: 2rem;
+                }
+
+                .seats-booked-section {
+                    width: 100%;
+                }
+            }
+
+            .aboutgroupclass-section {
+                h2 {
+                    font-size: 1.8rem;
+                }
+
+                .user-profile{
+                    display: flex;
+
+                    .user-profile-card {
+                        width: 49%;
+                        margin-bottom: .5rem;
+                    }
+
+                    .seats-booked-section {
+                        width: 48%;
+                    }
+                }
+            }
+
+            .tab-section-class {
+                .questions-section {
+                    .accordion-item {
+                        .accordion-collapse {
+                            max-height: unset;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .addnewblog-page {
+        .bolg-setion {
+            .descriptio, .blog-title, .dropdown-select {
+                margin-bottom: 2rem;
+
+                h3 {
+                    font-size: 1.6rem;
+                }
+            }
+        }
+    }
+
+    .class-modal.problemsolving.rejectbooking.paymentmethod {
+        .payment-type, .card-section, .year-date-cvv.dropdown-select {
+            display: block;
+            margin-bottom: 1.5rem;
+            .stripe {
+                width: 100%;
+                margin-bottom: 1.5rem;
+
+                label {
+                    padding: 1rem;
+                }
+
+                .form-check {
+                    .form-check-input {
+                        top: 1.3rem;
+                        right: 1rem;
+                    }
+                }
+            }
+
+            .card-name {
+                width: 100%;
+                margin-bottom: 1.5rem;
+            }
+
+            .date-cvv {
+                width: 100%;
+                margin-bottom: 1.5rem;
+            }
+        }
+
+        .checkbox-box input {
+            top: 0rem;
+        }
+
+        .modal-body {
+            padding: 0 2rem;
+        }
+    }
+
+    .myprofile-section {
+        .tab-section-profile.tab-section-profile2 {
+            padding: 0rem 0rem 0 !important;
+        }
+
+        .price-two-box {
+            gap: 1rem;
+
+            .price-first {
+                width: 49%;
+                padding: 1rem;
+
+                h2 {
+                    font-size: 1.3rem;
+                }
+
+                p{
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+
+
+
+
+    .class-modal.problemsolving.workstation {
+        .url-box {
+            margin-top: 2rem;
+            .btn {
+                font-size: 1.6rem;
+            }
+        }
+
+        .checkmark{
+            p {
+                font-size: 2rem;
+            }
+        }
+
+        .modal-body {
+            margin-bottom: 3rem;
+        }
+    }
+
+    .classesdetails-page {
+        .classes-tabs-three {
+            .nav.nav-tabs {
+                background-color: #ffffff;
+                .nav-item {
+                    width: 100%;
+                    margin-bottom: 1rem;
+                }
+
+                .nav-link {
+                    background-color: #E8F3FF;
+                }
+            }
+        }
+    }
+
+
+    .center-modal.class-modal.problemsolving {
+        .modal-footer, .modal-body {
+            padding: 0;
+        }
+    }
+
+
+    .booking-request-section {
+        .booking-filter {
+            .form-check-input:checked::after {
+                height: 6px;
+                width: 6px;
+            }
+        }
+
+        .bookingrequest-card-main {
+            padding: 1rem;
+            border-radius: 1rem;
+
+            .booking-card {
+                display: block;
+                width: 100%;
+                .image-box {
+                    width: 100% !important;
+                    height: 15rem;
+                    margin-bottom: 2rem;
+                    border-radius: 1rem;
+                }
+
+                .booking-details {
+                    width: 100% !important;
+
+                    .heading-price {
+                        h3 {
+                            font-size: 2rem;
+                        }
+                    }
+                }
+            }
+
+            .group-classcard-main.group-classcard-main2 {
+                margin-top: 1rem;
+
+                .date-time-box.date-time-box2 {
+                    margin-bottom: 1rem;
+                }
+            }
+
+            .eject-accept {
+                display: block;
+                text-align: center;
+                .btn {
+                    margin-bottom: 1rem;
+
+                    &:last-child{
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+
+        .bookingrequest-card-main {
+            .group-classcard-main {
+                .date-time-box.date-time-box2::after {
+                    right: 0rem;
+                }
+            }
+
+            .eject-accept {
+                .btn.reject.rating {
+                    svg {
+                        margin-right: 0.2rem;
+                        width: 1.3rem;
+                        height: 1.3rem;
+                    }
+
+                    span {
+                        font-size: 1.4rem;
+                        margin-left: 0.5rem;
+                        margin-top: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    .groupclasses2 {
+        .three-box-classes {
+            padding: 1rem;
+            border-radius: 1rem;
+
+            .subject-button::after {
+                width: calc(100% + 2rem);
+                left: -1rem;
+            }
+
+            .top-img {
+                border-radius: 1rem;
+            }
+        }
+    }
+
+
+    .complete-profile2, .gift-input-box, .myprofilebox2, .password-profile-box, .card-section2, .uploadproblem-section, .problem-solving-box, .addnewblog-page, .input-content-easy.groupclass {
+        .custom-field.one {
+
+            input {
+                min-height: 5rem !important;
+            }
+
+            input + .placeholder {
+                font-size: 14px;
+            }
+        }
+
+        .custom-field input {
+            font-size: 1.4rem;
+        }
+
+        .searchWrapper {
+            min-height: 5rem;
+            max-height: 5rem;
+            padding: 1rem 2.5rem;
+            overflow: auto;
+        }
+
+        .drag-image-video {
+            input#formFileMultiple {
+                font-size: 1.4rem;
+            }
+
+            label {
+                font-size: 1.6rem;
+            }
+        }
+
+    }
+
+    .dropdown-select {
+        .css-t3ipsp-control, .css-13cymwt-control {
+            max-height: 5rem;
+            padding: 1rem 2.5rem;
+
+            .css-1dimb5e-singleValue, .css-1jqq78o-placeholder {
+                font-size: 14px;
+            }
+        }
+    }
+
+    .phone-input-flag {
+        .PhoneInput {
+            min-height: 5rem;
+
+            input.PhoneInputInput {
+                font-size: 1.4rem;
+            }
+        }
+    }
+
+    .floating-label {
+        .form-control {
+            min-height: 5rem !important;
+            font-size: 1.4rem;
+        }
+
+        textarea {
+            font-size: 1.4rem !important;
+        }
+    }
+
+    .email-box{
+        &::after {
+            top: 2.2rem;
+            right: 0.5rem;
+            width: 1.5rem;
+            height: 1.5rem;
+        }
+    }
+
+    .instructor-profile {
+        .profile-top-heading {
+            h2 {
+                font-size: 1.8rem;
+            }
+        }
+    }
+
+    .blog-page-add {
+        .blog-top-content {
+            margin: 10rem auto 5rem;
+
+            p{
+                font-size: 1.8rem;
+            }
+        }
+    }
+
+    .qualifications-section {
+        h3 {
+            font-size: 1.6rem;
+        }
+
+        .addmoresubjects-section {
+            display: block;
+
+             .myprofilebox3 {
+                width: 100%;
+                margin-bottom: 3rem;
+            }
+
+            .myprofilebox3.cros-button-sub {
+                width: 100% !important;
+            }
+        }
+    }
+
+    .cros-button-sub {
+        .btn {
+            min-width: 5rem;
+            height: 5rem;
+            padding: 0 1rem;
+        }
+    }
+
+    .change-password-box {
+        padding: 1rem 1rem;
+        border: 1px solid #ccc;
+        border-radius: 1rem;
+
+        .accordion-button::after {
+            width: 3rem;
+            height: 3rem;
+            background-size: 20px;
+        }
+    }
+
+    .on-off-button .switchToggle[type=checkbox], .on-off-button .switchToggle[type=radio] {
+        width: 10rem;
+        height: 3rem;
+    }
+
+    .on-off-button .switchToggle[type=checkbox]::before, .on-off-button .switchToggle[type=radio]::before {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .on-off-button .switchToggle[type=checkbox]:checked::before, .on-off-button .switchToggle[type=radio]:checked::before {
+        left: 70px;
+    }
+
+    .on-off-button .switchToggle[type=checkbox]:checked:after, .on-off-button .switchToggle[type=radio]:checked:after {
+        font-size: 1.6rem;
+        right: 3.4rem;
+    }
+
+    .on-off-button .switchToggle[type=checkbox]::after, .on-off-button .switchToggle[type=radio]::after {
+        top: 3px;
+    }
+
+    .on-off-button .switchToggle[type=checkbox]::after, .on-off-button .switchToggle[type=radio]::after {
+        font-size: 1.6rem;
+    }
+
+    .on-off-button .switchToggle[type=checkbox]::before, .on-off-button .switchToggle[type=radio]::before {
+        left: 5px;
+        top: 4px;
+    }
+
+    .myprofile-section {
+        .tab-section-profile {
+            .myprofilebox2 {
+                .myprofilebox1 {
+                    .drag-image-video {
+                        width: 100%;
+                        margin-bottom: 2rem;
+                    }
+                }
+                .drag-image-video {
+                    .form-control::file-selector-button {
+                        padding: 1rem 0rem;
+                        width: 12rem;
+                    }
+                }
+
+                .profile-textarea {
+                    textarea::placeholder {
+                        font-size: 1.4rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .change-password-box {
+        .accordion-button {
+            font-size: 1.6rem;
+            }
+    }
+
+    .myprofile-section {
+        .tab-section-profile {
+            .nav-item {
+                max-width: 100%;
+                width: 100%;
+                margin-bottom: 1rem;
+
+                .nav-link {
+                    border-bottom: 3px solid #ccc !important;
+                    transition: 0.3s;
+                }
+
+                .nav-link.active{
+                    border-bottom: #005EB5!important;
+                    &::before {
+                        bottom: -5px;
+                    }
+                }
+            }
+
+            .nav-tabs::after{
+                display: none;
+            }
+        }
+    }
+
+    .myprofile-section {
+        .tab-section-profile, .my-profile-details {
+            padding: 0rem;
+            background-color: #fff;
+        }
+    }
+
+    .instru-bg-image {
+        h1 {
+            font-size: 2.5rem;
+        }
+        p{
+            font-size: 1.4rem;
+        }
+    }
+
+    .header-button-group {
+        margin-right: 1rem;
+    }
+
+    .top-navbar {
+        .header-button-group {
+            .search-toggle {
+                .dropdown {
+                    .dropdown-menu.show {
+                        width: 30rem;
+                        background-color: #fff;
+                        border-radius: 5px;
+                        right: unset;
+                        left: -15rem;
+                        top: 5.5rem;
+                        min-height: 6rem;
+                        box-shadow: 34px 55px 70px rgb(0 0 0 / 10%);
+                        overflow: hidden;
+                    }
+
+                    .dropdown-menu {
+                        input {
+                            padding: 1rem;
+                            height: 6rem;
+                            color: #0859a3;
+                            border-bottom: 5px solid #0859a3;
+                            font-weight: 600;
+
+                            &::placeholder{
+                                color: #0859a3;
+                                font-weight: 600;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .top-navbar {
+        .navbar-brand {
+            img.logo-header {
+                width: 100%;
+            }
+        }
+        .container{
+            padding: 0 1rem;
+        }
+
+        .header-devid-section {
+            .menu-main-header {
+                width: 14%;
+            }
+        }
+
+        .header-button-group {
+            line-height: 4rem;
+
+            a.joinnow {
+                padding: 0 0.5rem;
+                height: 4.2rem;
+                font-size: 1.4rem;
+                width: 8rem;
+                min-width: unset;
+                margin-right: .5rem;
+                margin-left: 0.5rem;
+            }
+        }
+    }
+
+
+    .termsconditions p {
+        font-size: 1.4rem;
+    }
+
+    .login-main-section{
+        h1 {
+            font-size: 25px;
+        }
+
+        .accountfield {
+            display: block;
+
+            .accountfield-first {
+                width: 100%;
+            }
+
+            .custom-field.one {
+                input {
+                    padding: 1.2rem 1.5rem !important;
+                }
+
+                input + .placeholder {
+                    padding: 0 0.5rem;
+                }
+            }
+        }
+
+        .check-box-create {
+            label {
+                font-size: 12px;
+            }
+
+            input {
+                height: 15px;
+                width: 15px;
+            }
+        }
+    }
+
+    .class-modal.notifications-modal {
+        .modal-dialog {
+            .modal-content {
+                button.btn-close {
+                    top: 2rem;
+                    left: 2rem;
+                    right: unset;
+                    background-color: #005eb5;
+                    z-index: 9;
+                    height: 2.5rem;
+                    width: 2.5rem;
+                }
+                .notifications-content {
+                    width: 100%;
+                    padding: 0 1.5rem 2rem;
+                    margin-top: 5rem;
+
+                    .notification-card-section {
+                        padding: 1rem;
+                        margin: 1rem 0 0;
+                    }
+                }
+            }
+        }
+    }
+
+    .notifications-modal.instructor-sidebar-modal-section {
+        .instructor-sidebar-modal {
+            .sidemenu-profile {
+                padding: 2rem 1.5rem;
+            }
+        }
+    }
+
+    .blogdetail {
+        .blogdetails-section {
+            .comments-section {
+                .post-input {
+                    flex-wrap: wrap;
+                    justify-content: center;
+
+                    input {
+                        width: 100%;
+                        min-height: 5rem;
+                    }
+
+                    .btn {
+                        background-color: #fed756;
+                        border: 2px solid #fed756;
+                        margin-top: 2rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .main-footer {
+        .newsletter {
+            input {
+                width: 76%;
+            }
+        }
+    }
+
+    .accountfield-fb-goo-button-sec .btn {
+        min-width: 100%;
+    }
+    
+    .accountfield-fb-goo-button-sec {
+        .facebook {
+            width: 48%;
+        }
+
+        .linkedIn {
+            margin-top: 2rem;
+            width: 100%;
+        }
+    }
+
+    .accountfield-signup .btn {
+        min-width: 100%;
+    }
+
+    .crose-button {
+        top: 1rem;
+        right: 1rem;
+
+        .btn {
+            min-width: 3.5rem;
+            height: 3.5rem;
+
+            svg {
+                height: 1.5rem;
+            }
+        }
+    }
+
+    .top-section {
+        .content-section-top {
+            h1 {
+                font-size: 3rem;
+                line-height: 4rem;
+            }
+
+            p {
+                font-size: 16px;
+                line-height: 26px;
+            }
+        }
+
+        .search-button-section {
+            flex-direction: column;
+
+            select#pet-select {
+                border-radius: 0.5rem;
+                margin: 0px 0 2rem;
+            }
+        }
+
+    }
+
+    .blogdetail {
+        .instru-bg-image {
+            h1{
+                &::after {
+                    left: 20%;
+                }
+            }
+        }
+
+        .teachers-description {
+            .feescharges-sec {
+                width: 100%;
+            }
+
+            .sidebar-details .specialization {
+                margin-top: 2rem;
+            }
+        }
+
+        .blogdetails-section {
+            h1 {
+                font-size: 1.8rem;
+                line-height: 2.5rem;
+            }
+
+            .comment-like-button-section{
+                flex-wrap: wrap;
+                margin: 1rem 0 2.3rem;
+                .comment, .button-setion2 {
+                    width: 100%;
+                }
+
+                .button-setion2 {
+                    margin-top: 1rem;
+                }
+
+                p::after {
+                    left: 6.5rem;
+                }
+            }
+
+            .comments-main-section {
+                .sub-comments {
+                    padding-left: 5rem;
+
+                    .sub-comments2 {
+                        padding-left: 5rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .whychoose-section {
+        .sky-dot {
+            left: -11rem;
+        }
+
+        .yellow-dot {
+            width: 7.5rem;
+        }
+
+        .card-section {
+            margin-bottom: 10px;
+        }
+    }
+
+    .book-section {
+        .book-contect{
+            &::after {
+                width: 3rem;
+            }
+        }
+
+        .counter-section-main {
+            .counter-box1 {
+                margin: 1rem 2rem;
+            }
+        }
+
+        .three-box {
+            padding: 10px 10px 10px 40px;
+            h1 {
+                line-height: 60px;
+            }
+        }
+
+        .three-box .rounded-box {
+            width: 60px;
+            height: 60px;
+        }
+    }
+
+    .recent-blogs {
+
+        &::after {
+            width: 5rem;
+            height: 11rem;
+            right: -2rem;
+        }
+
+        .recent-after-image{
+            &::after {
+                top: 40rem;
+                left: 1rem;
+            }
+        }
+
+        h1{
+            &::after {
+                right: 1rem;
+            }
+        }
+
+        .three-post {
+
+            &::before {
+                height: 30%;
+                top: 70.4%;
+            }
+            padding: 0 10px;
+
+            .post-box-1 {
+                img {
+                    height: 23.5rem;
+                }
+
+                .date-box {
+                    top: 13.7rem;
+                }
+            }
+        }
+    }
+
+    .questions-section {
+        .accordion-item {
+            margin-bottom: 10px;
+            .accordion-button {
+                font-size: 16px;
+            }
+
+            .accordion-body {
+                font-size: 14px;
+                padding: 0px 10px 10px 10px;
+            }
+        }
+    }
+
+    .main-footer {
+        .quicklinks {
+            .menu-section {
+                .menu-first {
+                    width: 50%;
+                }
+            }
+        }
+
+        .footer-bg-image {
+            padding: 4rem 0rem;
+        }
+    }
+
+    .easy-box-content .input-content-easy .easy-box-1 {
+        width: 100% !important;
+        margin-bottom: 1rem;
+    }
+
+    .easyfind-box {
+        min-height: 35rem;
+    }
+
+
+    .card-main-section {
+        padding: 1rem;
+
+        .card-first {
+            display: block;
+        }
+        .video-section {
+            width: 100%;
+            height: 20rem;
+        }
+
+        .details-box {
+            width: 100%;
+            margin-top: 2rem;
+            display: block;
+
+            .details-box-first {
+                width: 100%;
+            }
+
+            .details-box-first2 {
+                width: 100%;
+                text-align: start;
+                margin-top: 0.5rem;
+
+                .btn {
+                    min-width: 100%;
+                    margin-top: 1rem;
+                }
+            }
+
+            h1 {
+                font-size: 1.8rem;
+            }
+
+            p {
+                font-size: 14px;
+            }
+
+            h2 {
+                margin-top: 0.5rem;
+            }
+
+            .details-box-first2{
+                p {
+                    margin-top: 0rem;
+                    justify-content: flex-start;
+                }
+            }
+        }
+
+        .read-more-box {
+            p {
+                margin-top: 1rem;
+                font-size: 1.4rem;
+            }
+        }
+    }
+
+    .card-main-section .details-box h2, .card-main-section .details-box h3, .card-main-section .details-box h4 {
+        margin-top: 0.5rem;
+    }
+
+    .easy-box-content {
+        padding: 2rem;
+    }
+
+    .class-modal.class-modal {
+        .modal-content {
+            .modal-title.h4 {
+                font-size: 2.2rem;
+            }
+
+            button.btn-close {
+                top: 2.5rem;
+                right: 2rem;
+                height: 2rem;
+                width: 2rem;
+            }
+        }
+    }
+
+    .card-main-section .read-more-box a.btn.becomaninstructor {
+        font-size: 1.1rem;
+    }
+
+    .teacher-details-box {
+        .teacher-main-section {
+            display: block;
+
+            .teacher-video {
+                width: 100%;
+                border-radius: 2.5rem 2.5rem 0 0;
+                max-height: 20rem;
+
+                img {
+                    max-height: 20rem;
+                }
+            }
+
+            .teacher-details {
+                width: 100%;
+                border-radius: 0 0 2.5rem 2.5rem;
+                padding: 1rem 2rem;
+
+                .detai1 {
+                    h1 {
+                        font-size: 1.8rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .Instructordetail{
+        .instru-bg-image {
+            h1 {
+                padding-top: 6rem;
+                font-size: 2.5rem;
+                padding-bottom: 1rem;
+    
+                &::after {
+                    left: 35%;
+                }
+            }
+    
+            p {
+                font-size: 1.4rem;
+                margin-top: 1rem;
+            }
+        }
+    }
+
+    .teachers-description {
+        h2 {
+            font-size: 2rem;
+            line-height: 3rem;
+        }
+
+        p {
+            font-size: 1.4rem;
+            margin-top: 1rem;
+        }
+
+        .ratingsreviews {
+            .reviews-person-main-section {
+                .reviews-person .name-star h4 {
+                    font-size: 1.4rem;
+                }
+            }
+
+            .rating-p {
+                margin-top: 0.5rem;
+
+                svg {
+                    max-width: 2rem;
+                }
+            }
+        }
+
+        .specialization {
+            .Specialization-tag {
+                .btn {
+                    font-size: 1.4rem;
+                }
+            }
+        }
+
+        .feescharges-sec {
+            padding: 2rem 1rem;
+        }
+    }
+
+    .teachers-description .qualification-sec .customers th, .teachers-description .availability .customers th {
+        padding: 1.5rem 0;
+        font-size: 1.6rem;
+    }
+
+    .teachers-description .qualification-sec .customers td, .teachers-description .availability .customers td {
+        font-size: 1.4rem;
+        padding: 1.5rem 0;
+    }
+
+    .groupclasses2 {
+        .subject-total {
+            display: flex;
+
+            h2 {
+                font-size: 1.4rem;
+            }
+        }
+
+       .three-box-classes {
+        .subject {
+            .subject1 {
+                .btn {
+                    height: 3.5rem;
+                }
+            }
+        }
+       }
+    }
+
+    .booking-request-section.classes-tabs-three.ratingsreviews-page-instructor {
+        .received-tab {
+            .total-reviews {
+                display: block;
+                padding-bottom: 1rem;
+
+                .rating-card {
+                    margin-bottom: 1rem;
+                }
+            }
+
+            .all-reviews-section {
+                .reviews-box-main {
+                    display: block;
+
+                    .reviews-img-box {
+                        margin-bottom: 1rem;
+                    }
+                }
+
+                .description p {
+                    font-size: 1.4rem;
+
+                    .btn{
+                        font-size: 1.2rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .complete-profile2, .gift-input-box, .myprofilebox2, .password-profile-box, .card-section2, .uploadproblem-section, .problem-solving-box,
+     .addnewblog-page, .input-content-easy.groupclass {
+        .drag-image-video {
+            .form-control::file-selector-button {
+            width: 18rem;
+        }
+        }
+    }
+
+    
+    
+
+
+
+  }
+
+
+//   @media screen and (max-width: 374px) {
+
+
+  @media screen and (max-width: 374px) {
+
+    .contact-us {
+        .contact-us-bg {
+            .social-details {
+                padding: 2rem;
+
+                .social-icon {
+                    margin-right: 1rem;
+                }
+
+                a {
+                    padding: 1rem;
+                }
+
+                h1 {
+                    margin-bottom: 0.3rem;
+                    font-size: 1.6rem;
+                }
+
+                h3 {
+                    font-size: 1.6rem;
+                }
+            }
+
+            .getintouch {
+                padding: 2rem;
+            }
+        }
+    }
+
+    .accountfield-signup .btn {
+        min-width: 100% !important;
+    }
+
+    .termsconditions {
+        margin: 2rem 0 10rem;
+    }
+
+    .top-section {
+        .content-section-top {
+            h1 {
+                font-size: 2.5rem;
+                line-height: 3.5rem;
+            }
+
+            p {
+                font-size: 14px;
+                line-height: 24px;
+            }
+        }
+
+        .scroll-down {
+            margin-top: 20px;
+        }
+
+        .bg-colour-section {
+            height: 78.12rem;
+        }
+
+        .bg-image-section {
+            height: 78.12rem;
+
+            &::after {
+                height: 78.12rem;
+            }
+        }
+    }
+
+    .main-footer {
+        .newsletter {
+            input {
+                width: 65%;
+            }
+        }
+    }
+
+    .login-main-section {
+        h1 {
+            font-size: 30px;
+        }
+
+        p {
+            font-size: 12px;
+            line-height: 16px;
+            padding-bottom: 20px;
+        }
+
+        .btn {
+            min-width: 10rem;
+            height: 4.5rem;
+        }
+    }
+
+    .crose-button {
+        .btn {
+            min-width: 5rem;
+            height: 5rem;
+        }
+    }
+
+    .whychoose-section {
+        margin-top: 50px;
+
+        .sky-dot {
+            left: -13rem;
+        }
+        .yellow-dot {
+            width: 4.5rem;
+        }
+
+        .card-section {
+            .box1 {
+                margin-bottom: 2rem;
+                h2 {
+                    font-size: 18px;
+                    margin: 20px 0 5px;
+                }
+                p {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    .home-page{
+       p{
+        font-size: 14px;
+       }
+
+        h1 {
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+        }
+    }
+
+    .book-section {
+        .three-box {
+
+            h1 {
+                line-height: 50px;
+            }
+            .rounded-box2 {
+                h3 {
+                    font-size: 18px;
+                    margin-bottom: 5px;
+                }
+            }
+
+            .rounded-box {
+                width: 50px;
+                height: 50px;
+            }
+        }
+    }
+
+    .recent-blogs {
+        .three-post {
+
+            &::before {
+                height: 34%;
+                top: 66.4%;
+            }
+
+            .post-box-1 {
+                h3 {
+                    font-size: 18px;
+                }
+
+                p{
+                    font-size: 14px;
+                }
+
+                img {
+                    height: 14.5rem;
+                }
+
+                .date-box {
+                    top: 6.7rem;
+                    width: 6rem;
+                    height: 5rem;
+
+                    h5 {
+                        font-size: 16px;
+                        line-height: 18px;
+                        padding: 7px;
+                    }
+                }
+            }
+        }
+    }
+
+    .main-footer {
+        .contactinfo {
+            a {
+                font-size: 1.4rem;
+            }
+        }
+
+        .logo-sec {
+            .social-icon {
+                margin: 2rem 0 0;
+
+                svg {
+                    width: 2.5rem;
+                    height: 2.5rem;
+                }
+
+                a {
+                    margin-right: 1rem;
+                }
+            }
+        }
+
+        .quicklinks {
+            .menu-section {
+                a {
+                    font-size: 1.4rem;
+                }
+            }
+        }
+
+        .newsletter{
+            p {
+                font-size: 1.4rem;
+            }
+        }
+
+        .contactinfo, .main-footer .quicklinks, .main-footer .newsletter {
+            margin-top: 2rem;
+        }
+    }
+
+    .card-main-section .video-section {
+        height: 20rem;
+    }
+
+  }
+
+
+  
+  @media screen and (max-width: 1399px) {
+    .booking-request-section {
+        .bookingrequest-card-main {
+            .booking-card {
+                .image-box {
+                    width: 21%;
+                    overflow: hidden;
+                    border-radius: 1.5rem;
+                    background-color: #005eb5;
+                }
+
+                .booking-details {
+                    width: 76%;
+                }
+            }
+        }
+    }
+
+        .header-button-group {
+        width: 48%;
+        }
+  }
